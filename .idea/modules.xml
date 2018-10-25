@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" filepath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" filepath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" filepath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_parent.iml" filepath="$PROJECT_DIR$/shopinggo_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" filepath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" filepath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" filepath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" filepath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" />
+    </modules>
+  </component>
+</project>

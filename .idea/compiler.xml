@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopinggo_common" />
+        <module name="shopinggo_dao" />
+        <module name="shopinggo_manager_web" />
+        <module name="shopinggo_pojo" />
+        <module name="shopinggo_sellergoods_interface" />
+        <module name="shopinggo_sellergoods_service" />
+        <module name="shopinggo_shop_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="9">
+      <module name="shopinggo_common" target="9" />
+      <module name="shopinggo_dao" target="9" />
+      <module name="shopinggo_manager_web" target="9" />
+      <module name="shopinggo_parent" target="9" />
+      <module name="shopinggo_pojo" target="9" />
+      <module name="shopinggo_sellergoods_interface" target="9" />
+      <module name="shopinggo_sellergoods_service" target="9" />
+      <module name="shopinggo_shop_web" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
