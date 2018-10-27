@@ -20,7 +20,7 @@ app.controller("baseController", function ($scope) {
 
     $scope.selectIds = [];   //用户勾选的ids集合
     //更新勾选集合
-    $scope.updateSelectIds = function ($event, id) {
+    $scope.updateSelection = function ($event, id) {
 
         if($event.target.checked){
             $scope.selectIds.push(id);     //向集合中添加元素

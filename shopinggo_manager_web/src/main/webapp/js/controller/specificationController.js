@@ -76,7 +76,8 @@ app.controller('specificationController' ,function($scope,$controller   ,specifi
 			}			
 		);
 	}
-	
+
+	//保存新增的选项框(防止空指针)
 	$scope.entity={specificationOptionList:[]};
 	
 	//增加规格选项行

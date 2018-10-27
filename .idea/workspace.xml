@@ -7,55 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_21_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsDescService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/ItemCatService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/ItemService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SellerService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationOptionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/TypeTemplateService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsDescServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemCatServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" afterPath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" afterPath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_dao/src/main/java/com/zqw/mapper/TbSpecificationMapper.java" afterPath="$PROJECT_DIR$/shopinggo_dao/src/main/java/com/zqw/mapper/TbSpecificationMapper.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml" />
       <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/shopinggo/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/shopinggo/mapper/TbSpecificationMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" afterPath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationMapper.class" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/SpecificationController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/SpecificationController.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/SpecificationController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/SpecificationController.class" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_parent.iml" afterPath="$PROJECT_DIR$/shopinggo_parent.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" afterPath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/admin/specification.html" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/admin/specification.html" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/js/controller/specificationController.js" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/js/controller/specificationController.js" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/SpecificationService.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/SpecificationService.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" afterPath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +60,116 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="specification.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brandController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-792">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specificationController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brand.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="83" column="68" lean-forward="false" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specificationService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-916">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2544#2545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="133" column="42" lean-forward="true" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationOptionServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -170,10 +253,16 @@
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java" />
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java" />
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" />
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
+        <option value="$PROJECT_DIR$/shopinggo_dao/src/main/java/com/zqw/mapper/TbSpecificationMapper.java" />
+        <option value="$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html" />
       </list>
     </option>
   </component>
@@ -233,11 +322,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="203" />
-    <option name="y" value="-19" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="84" />
+    <option name="y" value="-30" />
     <option name="width" value="1584" />
-    <option name="height" value="935" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -263,6 +352,49 @@
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +447,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -418,8 +579,8 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_sellergoods_service\src\main\java\com\zqw\sellergoods\service\impl" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_sellergoods_interface\src\main\java\com\zqw\sellergoods\service" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_pojo\src\main\java\com\zqw\pojogroup" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\java\com\zqw\manager\controller" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_pojo\src\main\java\com\zqw\pojogroup" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\js\service" />
     </key>
   </component>
@@ -435,7 +596,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.manager_web">
+  <component name="RunManager" selected="Tomcat Server.sss">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -512,6 +673,7 @@
       <listeners />
     </configuration>
     <configuration name="manager_web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.61" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="shopinggo_manager_web:war exploded">
           <settings>
@@ -768,7 +930,7 @@
       <workItem from="1540566518943" duration="2763000" />
       <workItem from="1540600057252" duration="13365000" />
       <workItem from="1540615391001" duration="7666000" />
-      <workItem from="1540636860080" duration="3097000" />
+      <workItem from="1540636860080" duration="8409000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
       <created>1540567692846</created>
@@ -809,36 +971,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86390000" />
+    <option name="totallyTimeSpent" value="91702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7387755" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247642" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2671674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966888" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21698113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.370068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5683962" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.740566" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -846,37 +1009,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2807947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -918,88 +1050,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="848" column="0" lean-forward="false" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <marker date="1539319550912" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1539319550912" expanded="false" signature="162:720" ph="..." />
-            <marker date="1539319550912" expanded="false" signature="1114:1125" ph=" { " />
-            <marker date="1539319550912" expanded="false" signature="1146:1152" ph=" }" />
-            <marker date="1539319550912" expanded="false" signature="1215:1226" ph=" { " />
-            <marker date="1539319550912" expanded="false" signature="1246:1252" ph=" }" />
-            <marker date="1539319550912" expanded="true" signature="1374:1430" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="1509:1568" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="1678:1737" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="1831:1902" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="2042:2748" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="2898:4250" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="4332:4558" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="4621:4957" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="5053:5511" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="5576:6653" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="6738:7340" ph="{...}" />
-            <marker date="1539319550912" expanded="true" signature="7426:8000" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="736" column="0" lean-forward="false" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="895" column="0" lean-forward="false" selection-start-line="895" selection-start-column="0" selection-end-line="895" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="984" column="0" lean-forward="false" selection-start-line="984" selection-start-column="0" selection-end-line="984" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/brandService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1050,35 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="147" column="104" lean-forward="false" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbTypeTemplate.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbBrand.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContentCategoryExample.java" />
@@ -1100,30 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
           <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1174,16 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -1191,14 +1183,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,16 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1704">
-          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1276,13 +1250,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="736" column="0" lean-forward="false" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.0.0/pagehelper-4.0.0.jar!/com/github/pagehelper/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="968" column="0" lean-forward="false" selection-start-line="968" selection-start-column="0" selection-end-line="968" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="137" column="66" lean-forward="true" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-916">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_dao/src/main/java/com/zqw/mapper/TbSpecificationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="101" column="16" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+          <folding>
+            <marker date="1540645602064" expanded="true" signature="3322:3433" ph="select from tb_specification" />
+            <marker date="1540645602064" expanded="true" signature="3517:3582" ph="delete from tb_specification... " />
+            <marker date="1540645602064" expanded="true" signature="3684:3712" ph="delete from tb_specification... " />
+            <marker date="1540645602064" expanded="true" signature="4802:4839" ph="select count... tb_specification" />
+            <marker date="1540645602064" expanded="true" signature="5433:5553" ph="update tb_specification... " />
+            <marker date="1540645602064" expanded="true" signature="5763:5943" ph="update tb_specification... " />
+            <marker date="1540645602064" expanded="true" signature="6041:6150" ph="update tb_specification... " />
+            <marker date="1540645602064" expanded="true" signature="6227:6276" ph="select id,sp... tb_specification" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1752">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        <state relative-caret-position="428">
+          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="39" />
           <folding>
-            <element signature="e#1787#1788#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="133" column="42" lean-forward="true" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="83" column="68" lean-forward="false" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,14 +1,14 @@
 package com.zqw.manager.controller;
 import java.util.List;
+import java.util.Map;
 
+import com.zqw.pojo.TbSpecification;
 import com.zqw.pojogroup.Specification;
 import com.zqw.sellergoods.service.SpecificationService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.zqw.pojo.TbSpecification;
-
 
 import entity.PageResult;
 import entity.Result;
@@ -23,13 +23,13 @@ public class SpecificationController {
 
 	@Reference
 	private SpecificationService specificationService;
-
+	
 	/**
 	 * 返回全部列表
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbSpecification> findAll(){			
+	public List<TbSpecification> findAll(){
 		return specificationService.findAll();
 	}
 	
@@ -111,6 +111,11 @@ public class SpecificationController {
 	@RequestMapping("/search")
 	public PageResult search(@RequestBody TbSpecification specification, int page, int rows  ){
 		return specificationService.findPage(specification, page, rows);		
+	}
+	
+	@RequestMapping("/selectOptionList")
+	public List<Map> selectOptionList(){
+		return specificationService.selectOptionList();
 	}
 	
 }
