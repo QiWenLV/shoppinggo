@@ -6,667 +6,56 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsDescController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/ItemCatController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/ItemController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SellerController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationOptionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/TypeTemplateController.java" />
-
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/content_category.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/goods.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/home.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/item_cat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/seller.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/seller_1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/specification.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/type_template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/css/pages-login-manage.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/css/webbase.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/Logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/banner.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/car.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/code.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/cooperation_banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/down-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/empty_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/erweima.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/gotop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/list.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/login-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/manage-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/photo_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/sampling_head.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/seckillbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/shi_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/shop-intro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/shop-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/shop-part.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/title_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/_/y24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/account.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/ad.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/ad1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/ali.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/american-express.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/pay/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/phone/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/assets/img/zoom/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/avatar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/avatar04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/avatar2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/avatar3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/avatar5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/banner1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/banner4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/barrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/boxed-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/boxed-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/brand_21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/cartPanelViewIcons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/choosed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/cirrus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/delete.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/duihuan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/erweima.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-b01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-b02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/floor-1-b03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/goods.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/interest06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/like_06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/linker.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/lock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/loginbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/mastercard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/mestro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/mod-list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/paypal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/paypal2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/photo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/photo2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/photo3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/photo4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/qq.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/quan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/sina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/today01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/today02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/today03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/today04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user1-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user2-160x160.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user3-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user4-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user5-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user6-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user7-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/user8-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/visa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/weixin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/wx_cz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/img/zoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/base_pageinaton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/goodsController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/goodsDescController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/itemCatController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/itemController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/sellerController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/specificationOptionController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/typeTemplateController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/addressList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/getOrderInfo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/jquery.slideunlock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/login-manage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/person-collect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/person-footmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/seckill-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/shop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/shoplogin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/pages/sm-city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/birthday/birthday.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/citypicker/distpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/sui/sui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/plugins/upload/uploadPreview.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/brandService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/goodsDescService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/goodsService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/itemCatService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/itemService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/sellerService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationOptionService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/typeTemplateService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-black.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-black.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-green.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-red.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/avatar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/avatar04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/avatar2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/avatar3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/avatar5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/boxed-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/boxed-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/american-express.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/cirrus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/mastercard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/mestro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/paypal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/paypal2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/credit/visa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/default-50x50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/photo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/photo2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/photo3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/photo4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user1-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user2-160x160.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user3-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user4-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user5-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user6-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user7-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/img/user8-128x128.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/js/app.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/js/demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/angularjs/angular-animate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/angularjs/angular-route.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/angularjs/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/angularjs/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/angularjs/pagination.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/images/arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/bootstrap/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/.bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/angular-select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/release.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2-bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2-spinner.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2.jquery.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_en.js.template" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_et.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_eu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_gl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ka.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_lv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_mk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_no.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_pt-BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_pt-PT.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_rs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2_locale_zh-TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/plugins/select2/select2x2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/Specification.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopinggo_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_manager_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopinggo_sellergoods_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_sellergoods_service_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopinggo_shop_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_shop_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_21_0_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsDescService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/ItemCatService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/ItemService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SellerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationOptionService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/TypeTemplateService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsDescServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemCatServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" afterPath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" />
       <change beforePath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" afterPath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/com/shopinggo/mapper/TbSpecificationMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbAddressMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbAddressMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbAreasMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbAreasMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbBrandMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbBrandMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbCitiesMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbCitiesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbContentCategoryMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbContentCategoryMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbContentMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbContentMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbFreightTemplateMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbFreightTemplateMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbGoodsDescMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbGoodsDescMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbGoodsMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbGoodsMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbItemCatMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbItemCatMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbItemMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbItemMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbOrderItemMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbOrderItemMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbOrderMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbOrderMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbPayLogMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbPayLogMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbProvincesMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbProvincesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSellerMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSellerMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationOptionMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbSpecificationOptionMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbTypeTemplateMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbTypeTemplateMapper.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbUserMapper.class" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/zqw/mapper/TbUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/shopinggo/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/com/shopinggo/mapper/TbSpecificationMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" afterPath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_parent.iml" afterPath="$PROJECT_DIR$/shopinggo_parent.iml" />
       <change beforePath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" afterPath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddress.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddress.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAddressExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreas.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreas.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbAreasExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrand.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrand.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbBrandExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCities.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCities.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbCitiesExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContent.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContent.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategory.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategory.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentCategoryExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbContentExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplate.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplate.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbFreightTemplateExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoods.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoods.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDesc.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDesc.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsDescExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbGoodsExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItem.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItem.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCat.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCat.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemCatExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbItemExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrder.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrder.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItem.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItem.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbOrderItemExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLog.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLog.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbPayLogExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvinces.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvinces.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbProvincesExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSeller.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSeller.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSellerExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecification.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecification.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOption.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOption.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbSpecificationOptionExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplate.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplate.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbTypeTemplateExample.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUser.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUser.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$Criteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$Criteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$Criterion.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$Criterion.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample$GeneratedCriteria.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample.class" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/classes/com/zqw/pojo/TbUserExample.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/BrandService.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/BrandService.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/BrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" afterPath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -697,50 +86,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-
-      <file leaf-file-name="SpecificationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-
-      <file leaf-file-name="SpecificationServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpecificationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
         <option value="HTML File" />
-
         <option value="JavaScript File" />
         <option value="$PROJECT_DIR$/shopinggo_shop_web/pom.xml" />
         <option value="$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojo/TbBrandExample.java" />
@@ -796,6 +148,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsDescService.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SellerService.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsDescServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java" />
+        <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -832,21 +213,29 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shopinggo_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="shopinggo_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shopinggo_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopinggo_sellergoods_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopinggo_sellergoods_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="128" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="203" />
+    <option name="y" value="-19" />
     <option name="width" value="1584" />
     <option name="height" value="935" />
   </component>
@@ -916,26 +305,31 @@
               <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-
+              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -943,11 +337,19 @@
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -988,11 +390,10 @@
           <select />
         </subPane>
       </pane>
-
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1001,22 +402,25 @@
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/javassist/javassist/3.18.0-GA" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16666667" />
     <property name="project.structure.side.proportion" value="0.34479865" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\admin" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_sellergoods_service\src\main\java\com\zqw\sellergoods\service\impl" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_sellergoods_interface\src\main\java\com\zqw\sellergoods\service" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_pojo\src\main\java\com\zqw\pojogroup" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\java\com\zqw\manager\controller" />
       <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\js\service" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\js\controller" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_sellergoods_service\src\main\java\com\zqw\sellergoods\service\impl" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1118,7 +522,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_shopinggo_parent_2" />
         <option name="HTTP_PORT" value="9103" />
-        <option name="JNDI_PORT" value="1096" />
+        <option name="JNDI_PORT" value="1095" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1364,6 +768,7 @@
       <workItem from="1540566518943" duration="2763000" />
       <workItem from="1540600057252" duration="13365000" />
       <workItem from="1540615391001" duration="7666000" />
+      <workItem from="1540636860080" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
       <created>1540567692846</created>
@@ -1404,15 +809,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83293000" />
+    <option name="totallyTimeSpent" value="86390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="60" width="1584" height="935" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7393868" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7387755" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247642" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2671674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2671674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1421,18 +826,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091981" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21698113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4952381" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3701731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.370068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5683962" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29205298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1440,6 +844,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1513,183 +918,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js</url>
-          <line>77</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
-
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2544">
-          <caret line="122" column="24" lean-forward="false" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="86" column="14" lean-forward="false" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="87" column="28" lean-forward="false" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1896">
-          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="848" column="0" lean-forward="false" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
-          <folding>
-            <element signature="e#32532#32533#0" expanded="false" />
-            <element signature="e#32566#32567#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1724,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1732,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="736" column="0" lean-forward="false" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1748,33 +982,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="895" column="0" lean-forward="false" selection-start-line="895" selection-start-column="0" selection-end-line="895" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-
         <state relative-caret-position="-605">
           <caret line="984" column="0" lean-forward="false" selection-start-line="984" selection-start-column="0" selection-end-line="984" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-
         <state relative-caret-position="1488">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-
-        <state relative-caret-position="129">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1791,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1200">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1815,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1823,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1839,16 +1054,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="147" column="104" lean-forward="false" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js">
       <provider selected="true" editor-type-id="text-editor">
-
         <state relative-caret-position="197">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1856,7 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
           <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1864,137 +1075,215 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
-          <folding>
-            <marker date="1540624211623" expanded="true" signature="3322:3433" ph="select from tb_specification" />
-            <marker date="1540624211623" expanded="true" signature="3517:3582" ph="delete from tb_specification... " />
-            <marker date="1540624211623" expanded="true" signature="3684:3712" ph="delete from tb_specification... " />
-            <marker date="1540624211623" expanded="true" signature="4019:4128" ph="insert into tb_specification... " />
-            <marker date="1540624211623" expanded="true" signature="4802:4839" ph="select count... tb_specification" />
-            <marker date="1540624211623" expanded="true" signature="5433:5553" ph="update tb_specification... " />
-            <marker date="1540624211623" expanded="true" signature="5763:5943" ph="update tb_specification... " />
-            <marker date="1540624211623" expanded="true" signature="6041:6150" ph="update tb_specification... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbTypeTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContentCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbItemExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSellerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbCities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSpecificationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbTypeTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbBrand.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContentCategoryExample.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbItemExample.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSellerExample.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbCities.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContent.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbOrderItem.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSpecification.java" />
+    <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbSpecificationExample.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/Specification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/controller/brandController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SellerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SellerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationOptionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/TypeTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="548">
+          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java">
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/BrandServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        <state relative-caret-position="-528">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1868">
+          <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/GoodsDescServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="1704">
+          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/GoodsDescService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding>
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#1835#1836#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2040,7 +1329,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2052,7 +1341,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shopinggo_shop_web</last-edited>
+          <last-edited>shopinggo_manager_web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
