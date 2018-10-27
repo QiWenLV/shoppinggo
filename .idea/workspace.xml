@@ -6,6 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsController.java" />
@@ -16,6 +17,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationController.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/SpecificationOptionController.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/TypeTemplateController.java" />
+
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/content.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/content_category.html" />
@@ -696,21 +698,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+
       <file leaf-file-name="SpecificationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/SpecificationService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+
       <file leaf-file-name="SpecificationServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/SpecificationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+
               <folding />
             </state>
           </provider>
@@ -721,6 +727,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+
               <folding />
             </state>
           </provider>
@@ -733,33 +740,8 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+
         <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>com.pinyougou</find>
-      <find>java</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>com.zqw</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
         <option value="$PROJECT_DIR$/shopinggo_shop_web/pom.xml" />
         <option value="$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojo/TbBrandExample.java" />
         <option value="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/resources/spring/applicationContext-service.xml" />
@@ -846,7 +828,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shopinggo_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="shopinggo_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -855,7 +837,8 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shopinggo_sellergoods_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="shopinggo_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -933,22 +916,26 @@
               <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -956,6 +943,7 @@
             <path>
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
+
               <item name="shopinggo_sellergoods_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -1000,6 +988,7 @@
           <select />
         </subPane>
       </pane>
+
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
@@ -1012,7 +1001,7 @@
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/javassist/javassist/3.18.0-GA" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16666667" />
     <property name="project.structure.side.proportion" value="0.34479865" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -1539,10 +1528,12 @@
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="8" />
+
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+
     <entry file="file://$PROJECT_DIR$/shopinggo_sellergoods_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -1763,6 +1754,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="-605">
           <caret line="984" column="0" lean-forward="false" selection-start-line="984" selection-start-column="0" selection-end-line="984" selection-end-column="0" />
           <folding />
@@ -1771,6 +1763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="1488">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
@@ -1779,6 +1772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="129">
           <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
@@ -1851,6 +1845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/js/service/specificationService.js">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="197">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
@@ -1930,6 +1925,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/pojo/TbContent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1967,7 +1963,13 @@
         <state relative-caret-position="421">
           <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
           </folding>
         </state>
       </provider>

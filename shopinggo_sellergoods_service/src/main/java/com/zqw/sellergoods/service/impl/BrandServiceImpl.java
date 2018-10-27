@@ -83,5 +83,4 @@ public class BrandServiceImpl implements BrandService {
 		return new PageResult(page.getTotal(), page.getResult());
 
 	}
-
 }
