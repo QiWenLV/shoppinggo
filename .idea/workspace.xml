@@ -6,35 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
+    <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/properties/db.properties" afterPath="$PROJECT_DIR$/shopinggo_dao/src/main/resources/properties/db.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/classes/properties/db.properties" afterPath="$PROJECT_DIR$/shopinggo_dao/target/classes/properties/db.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_dao/target/shopinggo_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" afterPath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java" afterPath="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/BrandController.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/manager/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_manager_web/target/shopinggo_manager_web-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_pojo/target/shopinggo_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/src/main/java/com/zqw/sellergoods/service/BrandService.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/BrandService.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/classes/com/zqw/sellergoods/service/BrandService.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_interface/target/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/src/main/java/com/zqw/sellergoods/service/impl/BrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/classes/com/zqw/sellergoods/service/impl/BrandServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_sellergoods_service/target/shopinggo_sellergoods_service-1.0-SNAPSHOT/WEB-INF/lib/shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/shopinggo_shop_web/target/shopinggo_shop_web-1.0-SNAPSHOT.war" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -686,7 +659,7 @@
       <workItem from="1540536359865" duration="2822000" />
       <workItem from="1540539277972" duration="19771000" />
       <workItem from="1540566518943" duration="2763000" />
-      <workItem from="1540600057252" duration="1251000" />
+      <workItem from="1540600057252" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
       <created>1540567692846</created>
@@ -695,11 +668,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540567692846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
+      <created>1540601331772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540601331772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63513000" />
+    <option name="totallyTimeSpent" value="63618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -714,12 +694,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247642" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18401287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6014151" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2666309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2666309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,6 +750,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -996,6 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
