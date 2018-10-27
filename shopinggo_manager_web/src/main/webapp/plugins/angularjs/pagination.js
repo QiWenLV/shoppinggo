@@ -15,11 +15,11 @@ angular.module('pagination', []).directive('tmPagination',[function(){
             '<li ng-class="{disabled: conf.currentPage == conf.numberOfPages}" ng-click="nextPage()"><span>&raquo;</span></li>' +
             '</ul>' +
             '<div class="page-total" ng-show="conf.totalItems > 0">' +
-            'ç¬¬<input type="text" ng-model="jumpPageNum"  ng-keyup="jumpToPage($event)"/>é¡µ ' +
-            'æ¯é¡µ<select ng-model="conf.itemsPerPage" ng-options="option for option in conf.perPageOptions "></select>' +
-            '/å…±<strong>{{ conf.totalItems }}</strong>æ¡' +
+            'µÚ<input type="text" ng-model="jumpPageNum"  ng-keyup="jumpToPage($event)"/>Ò³ ' +
+            'Ã¿Ò³<select ng-model="conf.itemsPerPage" ng-options="option for option in conf.perPageOptions "></select>' +
+            '/¹²<strong>{{ conf.totalItems }}</strong>Ìõ' +
             '</div>' +
-            '<div class="no-items" ng-show="conf.totalItems <= 0">æš‚æ— æ•°æ®</div>' +
+            '<div class="no-items" ng-show="conf.totalItems <= 0">ÔİÎŞÊı¾İ</div>' +
             '</div>',
         replace: true,
         scope: {
@@ -27,7 +27,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
         },
         link: function(scope, element, attrs){
 
-            // å˜æ›´å½“å‰é¡µ
+            // ±ä¸üµ±Ç°Ò³
             scope.changeCurrentPage = function(item) {
                 if(item == '...'){
                     return;
@@ -36,10 +36,10 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                 }
             };
 
-            // å®šä¹‰åˆ†é¡µçš„é•¿åº¦å¿…é¡»ä¸ºå¥‡æ•° (default:9)
+            // ¶¨Òå·ÖÒ³µÄ³¤¶È±ØĞëÎªÆæÊı (default:9)
             scope.conf.pagesLength = parseInt(scope.conf.pagesLength) ? parseInt(scope.conf.pagesLength) : 9 ;
             if(scope.conf.pagesLength % 2 === 0){
-                // å¦‚æœä¸æ˜¯å¥‡æ•°çš„æ—¶å€™å¤„ç†ä¸€ä¸‹
+                // Èç¹û²»ÊÇÆæÊıµÄÊ±ºò´¦ÀíÒ»ÏÂ
                 scope.conf.pagesLength = scope.conf.pagesLength -1;
             }
 
@@ -48,7 +48,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                 scope.conf.perPageOptions = [10, 15, 20, 30, 50];
             }
 
-            // pageListæ•°ç»„
+            // pageListÊı×é
             function getPagination(newValue, oldValue) {
                 
 
@@ -72,7 +72,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                     scope.conf.currentPage = 1;
                 }
 
-                // å¦‚æœåˆ†é¡µæ€»æ•°>0ï¼Œå¹¶ä¸”å½“å‰é¡µå¤§äºåˆ†é¡µæ€»æ•°
+                // Èç¹û·ÖÒ³×ÜÊı>0£¬²¢ÇÒµ±Ç°Ò³´óÓÚ·ÖÒ³×ÜÊı
                 if(scope.conf.numberOfPages > 0 && scope.conf.currentPage > scope.conf.numberOfPages){
                     scope.conf.currentPage = scope.conf.numberOfPages;
                 }
@@ -80,35 +80,35 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                 // jumpPageNum
                 scope.jumpPageNum = scope.conf.currentPage;
 
-                // å¦‚æœitemsPerPageåœ¨ä¸åœ¨perPageOptionsæ•°ç»„ä¸­ï¼Œå°±æŠŠitemsPerPageåŠ å…¥è¿™ä¸ªæ•°ç»„ä¸­
+                // Èç¹ûitemsPerPageÔÚ²»ÔÚperPageOptionsÊı×éÖĞ£¬¾Í°ÑitemsPerPage¼ÓÈëÕâ¸öÊı×éÖĞ
                 var perPageOptionsLength = scope.conf.perPageOptions.length;
-                // å®šä¹‰çŠ¶æ€
+                // ¶¨Òå×´Ì¬
                 var perPageOptionsStatus;
                 for(var i = 0; i < perPageOptionsLength; i++){
                     if(scope.conf.perPageOptions[i] == scope.conf.itemsPerPage){
                         perPageOptionsStatus = true;
                     }
                 }
-                // å¦‚æœitemsPerPageåœ¨ä¸åœ¨perPageOptionsæ•°ç»„ä¸­ï¼Œå°±æŠŠitemsPerPageåŠ å…¥è¿™ä¸ªæ•°ç»„ä¸­
+                // Èç¹ûitemsPerPageÔÚ²»ÔÚperPageOptionsÊı×éÖĞ£¬¾Í°ÑitemsPerPage¼ÓÈëÕâ¸öÊı×éÖĞ
                 if(!perPageOptionsStatus){
                     scope.conf.perPageOptions.push(scope.conf.itemsPerPage);
                 }
 
-                // å¯¹é€‰é¡¹è¿›è¡Œsort
+                // ¶ÔÑ¡Ïî½øĞĞsort
                 scope.conf.perPageOptions.sort(function(a, b){return a-b});
 
                 scope.pageList = [];
                 if(scope.conf.numberOfPages <= scope.conf.pagesLength){
-                    // åˆ¤æ–­æ€»é¡µæ•°å¦‚æœå°äºç­‰äºåˆ†é¡µçš„é•¿åº¦ï¼Œè‹¥å°äºåˆ™ç›´æ¥æ˜¾ç¤º
+                    // ÅĞ¶Ï×ÜÒ³ÊıÈç¹ûĞ¡ÓÚµÈÓÚ·ÖÒ³µÄ³¤¶È£¬ÈôĞ¡ÓÚÔòÖ±½ÓÏÔÊ¾
                     for(i =1; i <= scope.conf.numberOfPages; i++){
                         scope.pageList.push(i);
                     }
                 }else{
-                    // æ€»é¡µæ•°å¤§äºåˆ†é¡µé•¿åº¦ï¼ˆæ­¤æ—¶åˆ†ä¸ºä¸‰ç§æƒ…å†µï¼š1.å·¦è¾¹æ²¡æœ‰...2.å³è¾¹æ²¡æœ‰...3.å·¦å³éƒ½æœ‰...ï¼‰
-                    // è®¡ç®—ä¸­å¿ƒåç§»é‡
+                    // ×ÜÒ³Êı´óÓÚ·ÖÒ³³¤¶È£¨´ËÊ±·ÖÎªÈıÖÖÇé¿ö£º1.×ó±ßÃ»ÓĞ...2.ÓÒ±ßÃ»ÓĞ...3.×óÓÒ¶¼ÓĞ...£©
+                    // ¼ÆËãÖĞĞÄÆ«ÒÆÁ¿
                     var offset = (scope.conf.pagesLength - 1)/2;
                     if(scope.conf.currentPage <= offset){
-                        // å·¦è¾¹æ²¡æœ‰...
+                        // ×ó±ßÃ»ÓĞ...
                         for(i =1; i <= offset +1; i++){
                             scope.pageList.push(i);
                         }
@@ -122,7 +122,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                         }
                         scope.pageList.push(scope.conf.numberOfPages);
                     }else{
-                        // æœ€åä¸€ç§æƒ…å†µï¼Œä¸¤è¾¹éƒ½æœ‰...
+                        // ×îºóÒ»ÖÖÇé¿ö£¬Á½±ß¶¼ÓĞ...
                         scope.pageList.push(1);
                         scope.pageList.push('...');
 
@@ -142,7 +142,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                 if(scope.conf.onChange){
                     
 
-                    // é˜²æ­¢åˆå§‹åŒ–ä¸¤æ¬¡è¯·æ±‚é—®é¢˜
+                    // ·ÀÖ¹³õÊ¼»¯Á½´ÎÇëÇóÎÊÌâ
                     if(!(oldValue != newValue && oldValue[0] == 0)) {
                         scope.conf.onChange();
                     }
@@ -164,7 +164,7 @@ angular.module('pagination', []).directive('tmPagination',[function(){
                 }
             };
 
-            // è·³è½¬é¡µ
+            // Ìø×ªÒ³
             scope.jumpToPage = function(){
                 scope.jumpPageNum = scope.jumpPageNum.replace(/[^0-9]/g,'');
                 if(scope.jumpPageNum !== ''){
