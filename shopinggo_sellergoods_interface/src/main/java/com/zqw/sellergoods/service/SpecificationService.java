@@ -1,7 +1,9 @@
 package com.zqw.sellergoods.service;
 import java.util.List;
-import com.zqw.pojo.TbSpecification;
+import java.util.Map;
 
+
+import com.zqw.pojo.TbSpecification;
 import com.zqw.pojogroup.Specification;
 import entity.PageResult;
 /**
@@ -58,5 +60,8 @@ public interface SpecificationService {
 	 * @return
 	 */
 	public PageResult findPage(TbSpecification specification, int pageNum, int pageSize);
+	
+	
+	public List<Map> selectOptionList();
 	
 }
