@@ -15,15 +15,15 @@
         <module name="shopinggo_shop_web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9">
-      <module name="shopinggo_common" target="9" />
-      <module name="shopinggo_dao" target="9" />
-      <module name="shopinggo_manager_web" target="9" />
-      <module name="shopinggo_parent" target="9" />
-      <module name="shopinggo_pojo" target="9" />
-      <module name="shopinggo_sellergoods_interface" target="9" />
-      <module name="shopinggo_sellergoods_service" target="9" />
-      <module name="shopinggo_shop_web" target="9" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="shopinggo_common" target="1.8" />
+      <module name="shopinggo_dao" target="1.8" />
+      <module name="shopinggo_manager_web" target="1.8" />
+      <module name="shopinggo_parent" target="1.8" />
+      <module name="shopinggo_pojo" target="1.8" />
+      <module name="shopinggo_sellergoods_interface" target="1.8" />
+      <module name="shopinggo_sellergoods_service" target="1.8" />
+      <module name="shopinggo_shop_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

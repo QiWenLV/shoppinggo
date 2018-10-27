@@ -35,7 +35,7 @@
           <element id="library" level="project" name="Maven: junit:junit:4.9" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.28" />
-          <element id="library" level="project" name="Maven: javassist:javassist:3.11.0.GA" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.21.0-GA" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="archive" name="shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shopinggo_sellergoods_interface" />

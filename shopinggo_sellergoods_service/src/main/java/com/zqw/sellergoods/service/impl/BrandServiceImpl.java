@@ -7,6 +7,8 @@ import com.github.pagehelper.PageHelper;
 import com.zqw.mapper.TbBrandMapper;
 import com.zqw.pojo.TbBrand;
 
+import com.zqw.pojo.TbBrandExample;
+import com.zqw.pojo.TbItemExample;
 import com.zqw.sellergoods.service.BrandService;
 import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,6 +59,29 @@ public class BrandServiceImpl implements BrandService {
 		for(Long id : ids){
 			brandMapper.deleteByPrimaryKey(id);
 		}
+	}
+
+	@Override
+	public PageResult findPage(TbBrand brand, int pageNum, int pageSize) {
+
+		PageHelper.startPage(pageNum, pageSize);
+		TbBrandExample example = new TbBrandExample();
+		TbBrandExample.Criteria criteria = example.createCriteria();
+
+		if(brand!=null){
+		    if(brand.getName()!=null && brand.getName().length() > 0){
+                criteria.andNameLike("%" + brand.getName() + "%");
+            }
+            if(brand.getFirstChar() != null && brand.getFirstChar().length() > 0){
+                criteria.andFirstCharLike("%"+brand.getFirstChar()+"%");
+            }
+        }
+
+		//分页查询所有
+		Page<TbBrand> page = (Page<TbBrand>) brandMapper.selectByExample(example);
+		//返回包装后的结果
+		return new PageResult(page.getTotal(), page.getResult());
+
 	}
 
 }
