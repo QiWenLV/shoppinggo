@@ -29,4 +29,18 @@ app.controller("baseController", function ($scope) {
             $scope.selectIds.splice(index, 1);  //参数1，移除的位置。参数2，移除的个数
         }
     };
+
+    //拼接JSON数据，美化
+    //参数2，需要提取的key
+    $scope.jsonToString=function(jsonString,key){
+        var json=JSON.parse(jsonString);//将 json 字符串转换为 json 对象
+        var value="";
+        for(var i=0;i<json.length;i++){
+            if(i>0){
+                value+=","
+            }
+            value+=json[i][key];
+        }
+        return value;
+    }
 })

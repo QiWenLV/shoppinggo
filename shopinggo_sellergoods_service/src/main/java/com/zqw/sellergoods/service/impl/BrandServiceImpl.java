@@ -1,6 +1,7 @@
 package com.zqw.sellergoods.service.impl;
 
 import java.util.List;
+import java.util.Map;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
@@ -8,7 +9,6 @@ import com.zqw.mapper.TbBrandMapper;
 import com.zqw.pojo.TbBrand;
 
 import com.zqw.pojo.TbBrandExample;
-import com.zqw.pojo.TbItemExample;
 import com.zqw.sellergoods.service.BrandService;
 import entity.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,5 +82,10 @@ public class BrandServiceImpl implements BrandService {
 		//返回包装后的结果
 		return new PageResult(page.getTotal(), page.getResult());
 
+	}
+
+	@Override
+	public List<Map> selectOptionList() {
+		return brandMapper.selectOptionList();
 	}
 }
