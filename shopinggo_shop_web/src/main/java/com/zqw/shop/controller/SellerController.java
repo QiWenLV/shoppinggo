@@ -5,6 +5,7 @@ import com.zqw.pojo.TbSeller;
 import com.zqw.sellergoods.service.SellerService;
 import entity.PageResult;
 import entity.Result;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -49,8 +50,14 @@ public class SellerController {
 	 */
 	@RequestMapping("/add")
 	public Result add(@RequestBody TbSeller seller){
+
+		//密码加密
+		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		String password = passwordEncoder.encode(seller.getPassword());//加密
+		seller.setPassword(password);
+
 		try {
-			System.out.println("是否走到这里" + seller.getSellerId());
+
 			sellerService.add(seller);
 			return new Result(true, "增加成功");
 		} catch (Exception e) {
