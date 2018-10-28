@@ -9,7 +9,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" />
@@ -24,6 +23,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.8.4" />
           <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
@@ -37,6 +40,12 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.28" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.21.0-GA" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="archive" name="shopinggo_sellergoods_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_sellergoods_interface" />
+          </element>
+          <element id="archive" name="shopinggo_pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_pojo" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">

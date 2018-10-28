@@ -24,9 +24,15 @@
 	  </mvc:message-converters>  
 	</mvc:annotation-driven>
 
+	<context:annotation-config/>
+
 	<!-- 引用dubbo 服务 -->
-	<dubbo:application name="shopinggo_shop_web" />
-	<dubbo:registry address="zookeeper://192.168.25.129:2181"/>
+	<dubbo:application name="zqw_shop_web" />
+	<dubbo:registry address="zookeeper://192.168.25.222:2181"/>
 	<dubbo:annotation package="com.zqw.shop.controller" />
+
+
+
+
 
 </beans>
