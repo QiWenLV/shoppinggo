@@ -2,8 +2,6 @@ com\zqw\manager\controller\GoodsController.class
 com\zqw\manager\controller\SellerController.class
 com\zqw\manager\controller\SpecificationController.class
 com\zqw\manager\controller\TypeTemplateController.class
-com\zqw\manager\controller\SpecificationOptionController.class
-com\zqw\manager\controller\ItemController.class
 com\zqw\manager\controller\ItemCatController.class
-com\zqw\manager\controller\GoodsDescController.class
+com\zqw\manager\controller\LoginController.class
 com\zqw\manager\controller\BrandController.class
