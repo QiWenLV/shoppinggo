@@ -37,13 +37,14 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		if($scope.entity.id!=null){//如果有ID
 			serviceObject=itemCatService.update( $scope.entity ); //修改  
 		}else{
-			serviceObject=itemCatService.add( $scope.entity  );//增加 
+            $scope.entity.parentId = $scope.parentId;   //填充上级ID
+			serviceObject=itemCatService.add( $scope.entity  );//增加
 		}				
 		serviceObject.success(
 			function(response){
 				if(response.success){
 					//重新查询 
-		        	$scope.reloadList();//重新加载
+		        	$scope.findByParentId($scope.parentId);//重新加载
 				}else{
 					alert(response.message);
 				}
@@ -58,7 +59,7 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		itemCatService.dele( $scope.selectIds ).success(
 			function(response){
 				if(response.success){
-					$scope.reloadList();//刷新列表
+                    $scope.findByParentId($scope.parentId);//刷新列表
 					$scope.selectIds=[];
 				}						
 			}		
@@ -77,13 +78,44 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		);
 	}
 
+	//记录上级ID
+    $scope.parentId = 0;
+
     //根据上级分类查询商品分类列表
 	$scope.findByParentId=function (parentId) {
+
+        $scope.parentId = parentId;
+
 		itemCatService.findByParentId(parentId).success(
 			function (response) {
-				$scope.list=response;
+                $scope.list = response;
             }
 		)
+    }
+
+    $scope.entity_1=null;
+    $scope.entity_2=null;
+
+    //控制级别
+    $scope.grade=1  //当前级别
+
+    $scope.setGrade=function (value) {
+        $scope.grade = value;
+    }
+
+    //点击查询下级执行，切换查询控制级别
+    $scope.selectList=function (p_entity) {
+        if($scope.grade == 1){
+            $scope.entity_1=null;
+            $scope.entity_2=null;
+        }else if($scope.grade == 2){
+            $scope.entity_1= p_entity;
+            $scope.entity_2=null;
+        }else if($scope.grade == 3){
+            $scope.entity_2= p_entity;
+        }
+
+        $scope.findByParentId(p_entity.id)
     }
     
 });	

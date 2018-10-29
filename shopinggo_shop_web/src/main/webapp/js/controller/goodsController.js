@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller   ,goodsService){	
+app.controller('goodsController' ,function($scope,$controller   ,goodsService, uploadService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -31,19 +31,19 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 		);				
 	}
 	
-	//保存 
-	$scope.save=function(){				
-		var serviceObject;//服务层对象  				
-		if($scope.entity.id!=null){//如果有ID
-			serviceObject=goodsService.update( $scope.entity ); //修改  
-		}else{
-			serviceObject=goodsService.add( $scope.entity  );//增加 
-		}				
-		serviceObject.success(
+	//增加
+	$scope.add=function(){
+
+	    $scope.entity.goodsDesc.introduction=editor.html();
+
+        goodsService.add($scope.entity).success(
 			function(response){
 				if(response.success){
-					//重新查询 
-		        	$scope.reloadList();//重新加载
+
+					alert("商品添加成功");
+					//清空
+					$scope.entity = {};
+                    editor.html("");    //清空富文本编辑器
 				}else{
 					alert(response.message);
 				}
@@ -76,5 +76,31 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 			}			
 		);
 	}
-    
+
+	//上传图片
+	$scope.uploadFile=function () {
+		uploadService.uploadFile().success(
+			function (response) {
+                if(response.success){
+                    $scope.image_entity.imageUrl = response.message;
+                }else{
+                    alert(response.message);
+                }
+
+            }
+		)
+    }
+
+    //定义组合实体类
+    $scope.entity={goods:{}, goodsDesc:{itemImages:[]}};
+
+    //保存上传的图片字段
+    $scope.add_image_entity=function () {
+		$scope.entity.goodsDesc.itemImages.push($scope.image_entity);
+    }
+
+    //从列表删除图片
+    $scope.remove_image_entity=function(index){
+        $scope.entity.goodsDesc.itemImages.splice(index,1);
+    }
 });	

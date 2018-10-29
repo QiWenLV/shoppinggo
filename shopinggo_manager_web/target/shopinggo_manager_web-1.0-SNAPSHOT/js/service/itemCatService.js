@@ -31,6 +31,6 @@ app.service('itemCatService',function($http){
 	}
 	//根据上级分类查询商品分类列表
 	this.findByParentId=function (parentId) {
-		return $http.get('../itemCat/findByParentId?parentId='+parentId);
+		return $http.get('../itemCat/findByParentId.do?parentId='+parentId);
     }
 });
