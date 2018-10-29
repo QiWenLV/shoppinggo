@@ -3,3 +3,4 @@ com\zqw\shop\controller\SellerController.class
 com\zqw\shop\controller\GoodsController.class
 com\zqw\service\UserDetailsServiceImpl.class
 com\zqw\shop\controller\UploadController.class
+com\zqw\shop\controller\ItemCatController.class
