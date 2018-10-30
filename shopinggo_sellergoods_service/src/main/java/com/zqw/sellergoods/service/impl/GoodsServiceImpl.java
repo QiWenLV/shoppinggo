@@ -1,17 +1,19 @@
 package com.zqw.sellergoods.service.impl;
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-import com.zqw.mapper.TbGoodsDescMapper;
-import com.zqw.pojo.TbGoodsDesc;
-import com.zqw.pojo.TbGoodsExample;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.zqw.mapper.*;
+import com.zqw.pojo.*;
 import com.zqw.pojogroup.Goods;
 import com.zqw.sellergoods.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import com.zqw.mapper.TbGoodsMapper;
-import com.zqw.pojo.TbGoods;
 
 import entity.PageResult;
 
@@ -27,7 +29,15 @@ public class GoodsServiceImpl implements GoodsService {
 	private TbGoodsMapper goodsMapper;
 	@Autowired
 	private TbGoodsDescMapper goodsDescMapper;
-	
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Autowired
+	private TbItemCatMapper itemCatMapper;
+	@Autowired
+	private TbBrandMapper brandMapper;
+	@Autowired
+	private TbSellerMapper sellerMapper;
 	/**
 	 * 查询全部
 	 */
@@ -59,11 +69,70 @@ public class GoodsServiceImpl implements GoodsService {
 		goodsMapper.insert(goods.getGoods());
 
 		goods.getGoodsDesc().setGoodsId(goods.getGoods().getId());	//将商品基本表的ID给扩展表进行关联
-
 		//插入商品扩展表
 		goodsDescMapper.insert(goods.getGoodsDesc());
+        if("1".equals(goods.getGoods().getIsEnableSpec())){
+            for(TbItem item : goods.getItemList()){
 
+                //item里面只有spec, price, 库存，是否启用，是否默认。这几个数据
+
+                //拼接title。 SPU名称+规格选项值
+                String title = goods.getGoods().getGoodsName();
+
+                Map<String, Object> map =  JSON.parseObject(item.getSpec());
+
+                for (String key : map.keySet()) {
+                    title += " " + map.get(key);
+                }
+                item.setTitle(title);
+
+                setItemValues(item,goods);
+
+                itemMapper.insert(item);
+            }
+        }else {
+
+            TbItem item=new TbItem();
+            item.setTitle(goods.getGoods().getGoodsName());//标题
+            item.setPrice(goods.getGoods().getPrice());//价格
+            item.setNum(99999);//库存数量
+            item.setStatus("1");//状态
+            item.setIsDefault("1");//默认
+            item.setSpec("{}");//规格
+
+            setItemValues(item,goods);
+
+            itemMapper.insert(item);
+        }
 	}
+    private void setItemValues(TbItem item,Goods goods){
+        //商品分类,只存三级分类Id
+        item.setCategoryid(goods.getGoods().getCategory3Id());
+
+        //三级分类Id名字
+        TbItemCat tbItemCat = itemCatMapper.selectByPrimaryKey(goods.getGoods().getCategory3Id());
+        item.setCategory(tbItemCat.getName());
+
+        item.setCreateTime(new Date());	//创建日期
+        item.setUpdateTime(new Date());	//修改日期
+
+        item.setGoodsId(goods.getGoods().getId());	//商品ID
+        item.setSellerId(goods.getGoods().getSellerId());//商家ID
+
+        //品牌名
+        TbBrand tbBrand = brandMapper.selectByPrimaryKey(goods.getGoods().getBrandId());
+        item.setBrand(tbBrand.getName());
+
+        //商家店铺名
+        TbSeller tbSeller = sellerMapper.selectByPrimaryKey(goods.getGoods().getSellerId());
+        item.setSeller(tbSeller.getNickName());
+
+        //图片
+        List<Map> imageList = JSON.parseArray(goods.getGoodsDesc().getItemImages(), Map.class);
+        if(imageList.size() > 0){
+            item.setImage((String)imageList.get(0).get("imageUrl"));
+        }
+    }
 
 	
 	/**
