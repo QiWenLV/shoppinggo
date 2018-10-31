@@ -1,5 +1,5 @@
  //控制层 
-app.controller('itemCatController' ,function($scope,$controller   ,itemCatService){	
+app.controller('itemCatController' ,function($scope,$controller   ,itemCatService, typeTemplateService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -116,6 +116,14 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
         }
 
         $scope.findByParentId(p_entity.id)
+    }
+
+    $scope.findTypeTemplateAll = function () {
+        typeTemplateService.findAll().success(
+        	function (response) {
+                $scope.entity_TypeTemplate = response;
+            }
+		);
     }
     
 });	

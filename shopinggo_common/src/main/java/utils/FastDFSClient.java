@@ -71,4 +71,8 @@ public class FastDFSClient {
 	public String uploadFile(byte[] fileContent, String extName) throws Exception {
 		return uploadFile(fileContent, extName, null);
 	}
+
+	public int deleteFile(String fileId) throws Exception {
+		return storageClient.delete_file1(fileId);
+	}
 }

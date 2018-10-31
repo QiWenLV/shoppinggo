@@ -24,6 +24,7 @@
 	<script type="text/javascript" src="../js/base.js"></script>
 	<script type="text/javascript" src="../js/angular-select2.js"> </script>
 	<script type="text/javascript" src="../js/service/itemCatService.js"></script>
+	<script type="text/javascript" src="../js/service/typeTemplateService.js"></script>
 	<script type="text/javascript" src="../js/controller/baseController.js"></script>
 	<script type="text/javascript" src="../js/controller/itemCatController.js"></script>
 </head>
@@ -56,7 +57,7 @@
                             <div class="pull-left">
                                 <div class="form-group form-inline">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal" data-target="#editModal" ng-click="entity={}"><i class="fa fa-file-o" ></i> 新建</button>
+                                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal" data-target="#editModal" ng-click="entity={};findTypeTemplateAll()"><i class="fa fa-file-o" ></i> 新建</button>
                                         <button type="button" class="btn btn-default" title="删除" ng-click="dele()"><i class="fa fa-trash-o" ></i> 删除</button>
                                         <button type="button" class="btn btn-default" title="刷新" ng-click="findByParentId(parentId)"><i class="fa fa-check" ></i> 刷新</button>
                                        
@@ -91,7 +92,7 @@
 											  <span ng-if="grade!=3">
 												  <button type="button" class="btn bg-olive btn-xs" ng-click="setGrade(grade+1);selectList(entity)">查询下级</button>
 											  </span>
-		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal" ng-click="findOne(entity.id)">修改</button>
+		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal" ng-click="findOne(entity.id);findTypeTemplateAll()">修改</button>
 		                                  </td>
 			                          </tr>
 
@@ -136,7 +137,8 @@
 		      		<td>类型模板</td>
 		      		<td>
 						<!--<input select2 select2-model="entity.typeId" config="options['type_template']" placeholder="商品类型模板" class="form-control" type="text"/>-->
-						<input  placeholder="商品类型模板" class="form-control" type="text" ng-model="entity.typeId"/>
+						<!--<input  placeholder="商品类型模板" class="form-control" type="text" ng-model="entity.typeId"/>-->
+						<select class="form-control select-sm" ng-model="entity.typeId" ng-options="item.id as item.name for item in entity_TypeTemplate"></select>
 		      		</td>		      		      		
 		      	</tr>		      	
 			 </table>				

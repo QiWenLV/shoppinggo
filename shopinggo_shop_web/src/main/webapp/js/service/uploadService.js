@@ -18,4 +18,8 @@ app.service('uploadService',function($http){
         //第五行，表单序列化，固定写法
     }
 
+    this.deleteFile=function (url) {
+        return $http.get("../deleteImage.do?url=" + url)
+    }
+
 });

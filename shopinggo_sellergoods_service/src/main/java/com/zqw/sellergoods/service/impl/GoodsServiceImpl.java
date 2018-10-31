@@ -71,6 +71,45 @@ public class GoodsServiceImpl implements GoodsService {
 		goods.getGoodsDesc().setGoodsId(goods.getGoods().getId());	//将商品基本表的ID给扩展表进行关联
 		//插入商品扩展表
 		goodsDescMapper.insert(goods.getGoodsDesc());
+
+		//保存SKU列表
+		saveItemList(goods);
+
+	}
+    private void setItemValues(TbItem item,Goods goods){
+        //商品分类,只存三级分类Id
+        item.setCategoryid(goods.getGoods().getCategory3Id());
+
+        //三级分类Id名字
+        TbItemCat tbItemCat = itemCatMapper.selectByPrimaryKey(goods.getGoods().getCategory3Id());
+        item.setCategory(tbItemCat.getName());
+
+        item.setCreateTime(new Date());	//创建日期
+        item.setUpdateTime(new Date());	//修改日期
+
+        item.setGoodsId(goods.getGoods().getId());	//商品ID
+        item.setSellerId(goods.getGoods().getSellerId());//商家ID
+
+        //品牌名
+        TbBrand tbBrand = brandMapper.selectByPrimaryKey(goods.getGoods().getBrandId());
+        item.setBrand(tbBrand.getName());
+
+        //商家店铺名
+        TbSeller tbSeller = sellerMapper.selectByPrimaryKey(goods.getGoods().getSellerId());
+        item.setSeller(tbSeller.getNickName());
+
+        //图片
+        List<Map> imageList = JSON.parseArray(goods.getGoodsDesc().getItemImages(), Map.class);
+        if(imageList.size() > 0){
+            item.setImage((String)imageList.get(0).get("imageUrl"));
+        }
+    }
+
+    /**
+     * 保存SKU列表
+     * @param goods
+     */
+    private void saveItemList(Goods goods){
         if("1".equals(goods.getGoods().getIsEnableSpec())){
             for(TbItem item : goods.getItemList()){
 
@@ -104,34 +143,6 @@ public class GoodsServiceImpl implements GoodsService {
 
             itemMapper.insert(item);
         }
-	}
-    private void setItemValues(TbItem item,Goods goods){
-        //商品分类,只存三级分类Id
-        item.setCategoryid(goods.getGoods().getCategory3Id());
-
-        //三级分类Id名字
-        TbItemCat tbItemCat = itemCatMapper.selectByPrimaryKey(goods.getGoods().getCategory3Id());
-        item.setCategory(tbItemCat.getName());
-
-        item.setCreateTime(new Date());	//创建日期
-        item.setUpdateTime(new Date());	//修改日期
-
-        item.setGoodsId(goods.getGoods().getId());	//商品ID
-        item.setSellerId(goods.getGoods().getSellerId());//商家ID
-
-        //品牌名
-        TbBrand tbBrand = brandMapper.selectByPrimaryKey(goods.getGoods().getBrandId());
-        item.setBrand(tbBrand.getName());
-
-        //商家店铺名
-        TbSeller tbSeller = sellerMapper.selectByPrimaryKey(goods.getGoods().getSellerId());
-        item.setSeller(tbSeller.getNickName());
-
-        //图片
-        List<Map> imageList = JSON.parseArray(goods.getGoodsDesc().getItemImages(), Map.class);
-        if(imageList.size() > 0){
-            item.setImage((String)imageList.get(0).get("imageUrl"));
-        }
     }
 
 	
@@ -139,9 +150,23 @@ public class GoodsServiceImpl implements GoodsService {
 	 * 修改
 	 */
 	@Override
-	public void update(TbGoods goods){
-		goodsMapper.updateByPrimaryKey(goods);
-	}	
+	public void update(Goods goods){
+	    //更新基本数据
+        goodsMapper.updateByPrimaryKey(goods.getGoods());
+        //更新扩展表数据
+        goodsDescMapper.updateByPrimaryKey(goods.getGoodsDesc());
+
+        //删除原有的SKU列表
+        TbItemExample example = new TbItemExample();
+
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andGoodsIdEqualTo(goods.getGoods().getId());
+        itemMapper.deleteByExample(example);
+
+        //新加SKU列表
+        saveItemList(goods);
+
+    }
 	
 	/**
 	 * 根据ID获取实体
@@ -149,8 +174,21 @@ public class GoodsServiceImpl implements GoodsService {
 	 * @return
 	 */
 	@Override
-	public TbGoods findOne(Long id){
-		return goodsMapper.selectByPrimaryKey(id);
+	public Goods findOne(Long id){
+
+        Goods goods = new Goods();
+
+        goods.setGoods(goodsMapper.selectByPrimaryKey(id));
+        goods.setGoodsDesc(goodsDescMapper.selectByPrimaryKey(id));
+
+		//根据SPU的id查询出所有的SKU
+		TbItemExample example = new TbItemExample();
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andGoodsIdEqualTo(id);
+
+        goods.setItemList(itemMapper.selectByExample(example));
+
+        return goods;
 	}
 
 	/**
@@ -173,7 +211,7 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		if(goods!=null){			
 						if(goods.getSellerId()!=null && goods.getSellerId().length()>0){
-				criteria.andSellerIdLike("%"+goods.getSellerId()+"%");
+				criteria.andSellerIdEqualTo(goods.getSellerId());
 			}
 			if(goods.getGoodsName()!=null && goods.getGoodsName().length()>0){
 				criteria.andGoodsNameLike("%"+goods.getGoodsName()+"%");
