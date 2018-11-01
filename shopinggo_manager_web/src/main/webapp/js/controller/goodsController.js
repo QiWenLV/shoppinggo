@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller   ,goodsService){	
+app.controller('goodsController' ,function($scope,$controller   ,goodsService, itemCatService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -76,5 +76,32 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 			}			
 		);
 	}
-    
+
+    $scope.status=['未审核','已审核','审核未通过','已关闭'];
+
+    $scope.itemCatList=[];//商品分类列表
+    //查询商品分类列表
+    $scope.findItemCatList=function () {
+        itemCatService.findAll().success(
+            function (response) {
+                for(var i=0;i<response.length;i++){
+                    $scope.itemCatList[response[i].id]=response[i].name;
+                }
+            }
+        )
+    }
+	//修改状态
+    $scope.updateStatus=function (status) {
+        goodsService.updateStatus($scope.selectIds, status).success(
+        	function (response) {
+                if(response.success){
+                    //重新查询
+                    $scope.reloadList();//重新加载
+                    $scope.selectIds=[];
+                }else{
+                    alert(response.message);
+                }
+            }
+		)
+    }
 });	

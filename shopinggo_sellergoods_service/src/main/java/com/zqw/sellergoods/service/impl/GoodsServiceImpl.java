@@ -16,6 +16,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 
 import entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -23,6 +24,7 @@ import entity.PageResult;
  *
  */
 @Service
+@Transactional
 public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
@@ -64,6 +66,9 @@ public class GoodsServiceImpl implements GoodsService {
 
 		//先审核
 		goods.getGoods().setAuditStatus("0");	//设置未审核状态
+
+        //设置默认上架
+        goods.getGoods().setIsMarketable("1");
 
 		//插入商品基本信息
 		goodsMapper.insert(goods.getGoods());
@@ -197,8 +202,10 @@ public class GoodsServiceImpl implements GoodsService {
 	@Override
 	public void delete(Long[] ids) {
 		for(Long id:ids){
-			goodsMapper.deleteByPrimaryKey(id);
-		}		
+            TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+            goods.setIsDelete("1"); //逻辑删除
+            goodsMapper.updateByPrimaryKey(goods);
+        }
 	}
 	
 	
@@ -208,7 +215,9 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		TbGoodsExample example=new TbGoodsExample();
 		TbGoodsExample.Criteria criteria = example.createCriteria();
-		
+
+		criteria.andIsDeleteIsNull();   //排除逻辑删除的商品
+
 		if(goods!=null){			
 						if(goods.getSellerId()!=null && goods.getSellerId().length()>0){
 				criteria.andSellerIdEqualTo(goods.getSellerId());
@@ -240,5 +249,14 @@ public class GoodsServiceImpl implements GoodsService {
 		Page<TbGoods> page= (Page<TbGoods>)goodsMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+    @Override
+    public void updateStatus(Long[] ids, String status) {
+        for(Long id : ids){
+            TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+            goods.setAuditStatus(status);
+            goodsMapper.updateByPrimaryKey(goods);
+        }
+    }
+
 }

@@ -26,7 +26,7 @@ app.service('itemService',function($http){
 		return $http.get('../item/delete.do?ids='+ids);
 	}
 	//搜索
-	this.search=function(page,rows,searchEntity){
-		return $http.post('../item/search.do?page='+page+"&rows="+rows, searchEntity);
-	}    	
+	this.search=function(page,rows,searchEntity) {
+        return $http.post('../item/search.do?page=' + page + "&rows=" + rows, searchEntity);
+    }
 });

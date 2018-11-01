@@ -249,10 +249,12 @@ app.controller('goodsController' ,function($scope,$controller, $location   ,good
 
     //创建SKU列表
     $scope.createItemList=function(){
+
         $scope.entity.itemList=[{spec:{},price:0,num:99999,status:'0',isDefault:'0'} ];//列表初始化
 
 		var items = $scope.entity.goodsDesc.specificationItems;
 		//循环取出设置数据[{"attributeName":"机身内存","attributeValue":["64G","16G"]},{"attributeName":"网络","attributeValue":["移动3G","移动4G"]}]
+
         for(var i=0; i<items.length; i++){
         	//每个条目的数据交给addColumn方法，进行交叉组合
             $scope.entity.itemList= addColumn($scope.entity.itemList, items[i].attributeName,items[i].attributeValue );
@@ -296,17 +298,26 @@ app.controller('goodsController' ,function($scope,$controller, $location   ,good
 
         var items = $scope.entity.goodsDesc.specificationItems;
 
-        var obj = $scope.searchObjectByKey(items, 'attributeName', specName);
+        if($scope.entity.goods.isEnableSpec == 1){
+            var obj = $scope.searchObjectByKey(items, 'attributeName', specName);
 
-        if(obj != null){
-			if(obj.attributeValue.indexOf(optionName) > 0){		//如果你能查到
-				return true;
-			}else {
-				return false;
-			}
+            if(obj != null){
+                if(obj.attributeValue.indexOf(optionName) >= 0){		//如果你能查到
+                    // createItemList();
+                    return true;
+                }else {
+                    return false;
+                }
 
-		}else {
+            }else {
+                return false;
+            }
+        }else{
             return false;
-		}
+        }
+    }
+
+    $scope.dataAdapter=function () {
+
     }
 });
