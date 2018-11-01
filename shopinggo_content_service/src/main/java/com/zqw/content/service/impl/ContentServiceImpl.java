@@ -12,6 +12,7 @@ import com.zqw.pojo.TbContent;
 
 
 import entity.PageResult;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * 服务实现层
@@ -23,6 +24,9 @@ public class ContentServiceImpl implements ContentService {
 
 	@Autowired
 	private TbContentMapper contentMapper;
+
+	@Autowired
+	private RedisTemplate redisTemplate;
 	
 	/**
 	 * 查询全部
@@ -47,7 +51,21 @@ public class ContentServiceImpl implements ContentService {
 	 */
 	@Override
 	public void add(TbContent content) {
-		contentMapper.insert(content);		
+
+	    //查询原来的分组ID，因为可能改变了分组ID
+        Long categoryId = contentMapper.selectByPrimaryKey(content.getId()).getCategoryId();
+
+        //清除原分组的缓存
+        redisTemplate.boundHashOps("content").delete(content.getCategoryId());
+
+        //执行修改
+        contentMapper.insert(content);
+
+        //判断是否改变了分组ID
+        if(categoryId.longValue() != content.getCategoryId().longValue()){
+            //在数据改动后清除缓存
+            redisTemplate.boundHashOps("content").delete(content.getCategoryId());
+        }
 	}
 
 	
@@ -75,6 +93,10 @@ public class ContentServiceImpl implements ContentService {
 	@Override
 	public void delete(Long[] ids) {
 		for(Long id:ids){
+            //在数据改动后清除缓存
+            Long categoryId = contentMapper.selectByPrimaryKey(id).getCategoryId();
+            redisTemplate.boundHashOps("content").delete(categoryId);
+
 			contentMapper.deleteByPrimaryKey(id);
 		}		
 	}
@@ -106,5 +128,34 @@ public class ContentServiceImpl implements ContentService {
 		Page<TbContent> page= (Page<TbContent>)contentMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Override
+	public List<TbContent> findByCategoryId(Long categoryId) {
+
+	    //先查缓存(大key为content，表示所有广告。 小key为categoryId，表示广告分类)
+        List<TbContent> list = (List<TbContent>) redisTemplate.boundHashOps("content").get(categoryId);
+
+        //缓存没有，则查数据库
+        if (list == null){
+            System.out.println("从数据库查询数据");
+            TbContentExample example = new TbContentExample();
+            TbContentExample.Criteria criteria = example.createCriteria();
+            criteria.andCategoryIdEqualTo(categoryId);
+            //类型为1的是轮播图
+            criteria.andStatusEqualTo("1");
+            //排序
+            example.setOrderByClause("sort_order");
+            list = contentMapper.selectByExample(example);
+
+            //查询后将值放入缓存
+            redisTemplate.boundHashOps("content").put(categoryId, list);
+        }else{
+            System.out.println("从缓存中查询数据");
+        }
+
+
+
+        return list;
+	}
+
 }

@@ -692,3 +692,11 @@
 0:0:0:0:0:0:0:1 - - [01/Nov/2018:12:47:10 +0800] "GET /contentCategory/findAll.do HTTP/1.1" 200 505 http-bio-9101-exec-8 7
 0:0:0:0:0:0:0:1 - - [01/Nov/2018:12:47:10 +0800] "POST /content/search.do?page=1&rows=10 HTTP/1.1" 200 831 http-bio-9101-exec-9 17
 0:0:0:0:0:0:0:1 - - [01/Nov/2018:12:47:10 +0800] "POST /content/search.do?page=1&rows=10 HTTP/1.1" 200 831 http-bio-9101-exec-9 14
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:45 +0800] "GET / HTTP/1.1" 302 - http-bio-9101-exec-1 88
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:46 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 302 - http-bio-9101-exec-3 5
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:46 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 302 - http-bio-9101-exec-2 7
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:47 +0800] "POST /login HTTP/1.1" 302 - http-bio-9101-exec-4 385
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:49 +0800] "GET /admin/index.html HTTP/1.1" 200 22548 http-bio-9101-exec-6 1444
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:51 +0800] "GET /admin/home.html HTTP/1.1" 200 4468 http-bio-9101-exec-7 33
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:51 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9101-exec-9 6
+0:0:0:0:0:0:0:1 - - [01/Nov/2018:20:02:56 +0800] "GET /admin/contentCategory.html HTTP/1.1" 200 5888 http-bio-9101-exec-1 28
