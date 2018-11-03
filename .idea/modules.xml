@@ -10,9 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/shopinggo_parent.iml" filepath="$PROJECT_DIR$/shopinggo_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" filepath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_portal_web/shopinggo_portal_web.iml" filepath="$PROJECT_DIR$/shopinggo_portal_web/shopinggo_portal_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_search_interface/shopinggo_search_interface.iml" filepath="$PROJECT_DIR$/shopinggo_search_interface/shopinggo_search_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_search_service/shopinggo_search_service.iml" filepath="$PROJECT_DIR$/shopinggo_search_service/shopinggo_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_search_web/shopinggo_search_web.iml" filepath="$PROJECT_DIR$/shopinggo_search_web/shopinggo_search_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" filepath="$PROJECT_DIR$/shopinggo_sellergoods_interface/shopinggo_sellergoods_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" filepath="$PROJECT_DIR$/shopinggo_sellergoods_service/shopinggo_sellergoods_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" filepath="$PROJECT_DIR$/shopinggo_shop_web/shopinggo_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_solr_util/shopinggo_solr_util.iml" filepath="$PROJECT_DIR$/shopinggo_solr_util/shopinggo_solr_util.iml" />
     </modules>
   </component>
 </project>
