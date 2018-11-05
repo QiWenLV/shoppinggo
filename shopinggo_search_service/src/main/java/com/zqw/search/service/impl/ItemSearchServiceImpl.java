@@ -7,6 +7,7 @@ import com.zqw.pojo.TbItem;
 import com.zqw.search.service.ItemSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.core.query.*;
@@ -26,6 +27,11 @@ public class ItemSearchServiceImpl implements ItemSearchService {
     @Override
     public Map search(Map searchMap) {
         Map map = new HashMap();
+
+        //空格处理
+        String keywords = (String)searchMap.get("keywords");
+        searchMap.put("keywords", keywords.replace(" ",""));
+
         //1.高亮搜索
         map.putAll(searchList(searchMap));
         //2.分类列表
@@ -44,11 +50,34 @@ public class ItemSearchServiceImpl implements ItemSearchService {
             }
         }
 
-
-
         return map;
     }
 
+    @Override
+    public void importList(List list) {
+        solrTemplate.saveBean(list);
+        solrTemplate.commit();
+
+    }
+
+    @Override
+    public void deleteByGoodsIds(List goodsIds) {
+
+        Query query = new SimpleQuery("*:*");
+
+        //按goodsId删除
+        Criteria criteria = new Criteria("item_goodsid").in(goodsIds);
+
+        solrTemplate.delete(query);
+
+    }
+
+
+    /**
+     * 按商品分类的规格和品牌过滤
+     * @param caregory
+     * @return
+     */
     private Map searchBrandAndSpecList(String caregory){
         Map map = new HashMap();
         //1.根据商品分类名称去查找模板ID
@@ -64,13 +93,11 @@ public class ItemSearchServiceImpl implements ItemSearchService {
             map.put("specList", specList);
         }
 
-
-
         return map;
     }
 
     /**
-     * 分组查询
+     * 分类列表
      * @param searchMap
      * @return
      */
@@ -162,8 +189,57 @@ public class ItemSearchServiceImpl implements ItemSearchService {
 
                 query.addFilterQuery(filterQuery);
             }
-
         }
+        //1.5按照价格过滤
+        if(!"".equals(searchMap.get("price"))){       //如果选择了商品分类，才进行筛选
+
+            //切出价格
+            String[] price = ((String)searchMap.get("price")).split("-");
+
+            if(!price[0].equals("0")){  //如果最低价格不等于0
+                FilterQuery filterQuery = new SimpleFilterQuery();
+                //过滤条件
+                Criteria priceCriteria = new Criteria("item_price").greaterThanEqual(price[0]);
+                filterQuery.addCriteria(priceCriteria);
+                query.addFilterQuery(filterQuery);
+            }
+            if(!price[1].equals("*")){  //如果最高价格不等于*
+                FilterQuery filterQuery = new SimpleFilterQuery();
+                //过滤条件
+                Criteria priceCriteria = new Criteria("item_price").lessThanEqual(price[1]);
+                filterQuery.addCriteria(priceCriteria);
+                query.addFilterQuery(filterQuery);
+            }
+        }
+
+        //1.6分页显示
+        Integer pageNo = (Integer)searchMap.get("pageNo");    //获取页码
+        if(pageNo == null){
+            pageNo = 20;
+        }
+        Integer pageSize = (Integer)searchMap.get("pageSize");    //获取页大小
+        if(pageSize == null){
+            pageSize = 20;
+        }
+
+        query.setOffset((pageNo-1) * pageSize);    //起始索引
+        query.setRows(pageSize);       //设置页大小
+
+        //1.7排序查询
+        String sortValue = (String)searchMap.get("sort"); //升序和降序
+        String sortField = (String)searchMap.get("sortField");  //排序字段
+
+        if(!"".equals(sortField) && !"".equals(sortValue)){
+            Sort sort = null;
+            if(sortValue.equals("DESC")){
+                sort = new Sort(Sort.Direction.DESC, (String) searchMap.get("sortField"));
+            }else if(sortValue.equals("ASC")){
+                sort = new Sort(Sort.Direction.ASC, (String) searchMap.get("sortField"));
+            }
+            query.addSort(sort);
+        }
+
+
 
 
         //获取高亮结果集
@@ -189,6 +265,8 @@ public class ItemSearchServiceImpl implements ItemSearchService {
         }
 
         map.put("rows", page.getContent());
+        map.put("totalPages", page.getTotalPages());    //总页数
+        map.put("total", page.getTotalElements());      //总记录数
         return map;
     }
 }

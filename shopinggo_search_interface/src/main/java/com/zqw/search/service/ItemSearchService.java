@@ -11,4 +11,16 @@ public interface ItemSearchService {
      * @return
      */
     public Map search(Map searchMap);
+
+    /**
+     * 导入数据
+     * @param list
+     */
+    public void importList(List list);
+
+    /**
+     * 删除商品列表
+     * @param goodsIds SPU Id
+     */
+    public void deleteByGoodsIds(List goodsIds);
 }

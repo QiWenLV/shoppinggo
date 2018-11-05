@@ -1,8 +1,6 @@
 package com.zqw.sellergoods.service.impl;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.*;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -259,4 +257,16 @@ public class GoodsServiceImpl implements GoodsService {
         }
     }
 
+    //根据SPU的id集合查询SKU列表
+    @Override
+    public List<TbItem> findItemListByGoodsIdAndStatus(Long[] goodsIds, String status){
+
+		TbItemExample example = new TbItemExample();
+
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andStatusEqualTo("1");     //以审核
+        criteria.andGoodsIdIn(Arrays.asList(goodsIds));
+
+        return itemMapper.selectByExample(example);
+    }
 }

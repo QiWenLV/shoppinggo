@@ -12,4 +12,8 @@ app.controller('contentController' ,function($scope,$controller   ,contentServic
             }
 		)
     }
+
+    $scope.search=function () {
+        location.href="http://localhost:9104/search.html#?keywords="+$scope.keywords;
+    }
 });

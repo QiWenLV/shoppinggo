@@ -1,9 +1,11 @@
 package com.zqw.manager.controller;
+import java.util.Arrays;
 import java.util.List;
 
+import com.zqw.pojo.TbItem;
 import com.zqw.pojogroup.Goods;
+import com.zqw.search.service.ItemSearchService;
 import com.zqw.sellergoods.service.GoodsService;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -81,6 +83,10 @@ public class GoodsController {
 	public Result delete(Long [] ids){
 		try {
 			goodsService.delete(ids);
+
+			//从索引库删除
+            itemSearchService.deleteByGoodsIds(Arrays.asList(ids));
+
 			return new Result(true, "删除成功"); 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -100,6 +106,10 @@ public class GoodsController {
 		return goodsService.findPage(goods, page, rows);		
 	}
 
+
+	@Reference(timeout = 100000)
+	private ItemSearchService itemSearchService;
+
 	/**
 	 * 修改
 	 * @param
@@ -110,6 +120,12 @@ public class GoodsController {
 
 		try {
 			goodsService.updateStatus(ids, status);
+
+			if("1".equals(status)){	//如果是审核通过
+                List<TbItem> itemList = goodsService.findItemListByGoodsIdAndStatus(ids, status);
+                itemSearchService.importList(itemList);
+            }
+
 			return new Result(true, "操作成功");
 		} catch (Exception e) {
 			e.printStackTrace();

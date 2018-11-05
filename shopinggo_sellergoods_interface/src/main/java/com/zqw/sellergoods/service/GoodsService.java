@@ -2,6 +2,7 @@ package com.zqw.sellergoods.service;
 import java.util.List;
 import com.zqw.pojo.TbGoods;
 
+import com.zqw.pojo.TbItem;
 import com.zqw.pojogroup.Goods;
 import entity.PageResult;
 /**
@@ -66,5 +67,7 @@ public interface GoodsService {
 	 * @param status
 	 */
 	public void updateStatus(Long[] ids, String status);
+
+	public List<TbItem> findItemListByGoodsIdAndStatus(Long[] goodsIds, String status);
 	
 }
