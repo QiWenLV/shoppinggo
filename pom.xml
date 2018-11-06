@@ -23,6 +23,9 @@
         <module>shopinggo_search_interface</module>
         <module>shopinggo_search_service</module>
         <module>shopinggo_search_web</module>
+        <module>shopinggo_page_interface</module>
+        <module>shopinggo_page_service</module>
+        <module>shopinggo_page_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

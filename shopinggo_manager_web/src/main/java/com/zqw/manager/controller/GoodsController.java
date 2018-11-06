@@ -2,6 +2,7 @@ package com.zqw.manager.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import com.zqw.page.service.ItemPageService;
 import com.zqw.pojo.TbItem;
 import com.zqw.pojogroup.Goods;
 import com.zqw.search.service.ItemSearchService;
@@ -110,6 +111,9 @@ public class GoodsController {
 	@Reference(timeout = 100000)
 	private ItemSearchService itemSearchService;
 
+	@Reference(timeout = 40000)
+	private ItemPageService itemPageService;
+
 	/**
 	 * 修改
 	 * @param
@@ -122,9 +126,17 @@ public class GoodsController {
 			goodsService.updateStatus(ids, status);
 
 			if("1".equals(status)){	//如果是审核通过
-                List<TbItem> itemList = goodsService.findItemListByGoodsIdAndStatus(ids, status);
-                itemSearchService.importList(itemList);
-            }
+				//得到需要导入的SKU列表
+				List<TbItem> itemList = goodsService.findItemListByGoodsIdAndStatus(ids, status);
+				System.out.println("前台"+itemList);
+				//导入到solr
+				itemSearchService.importList(itemList);
+
+				//生成商品详细页
+				for(Long goodsId:ids){
+					itemPageService.genItemHtml(goodsId);
+				}
+			}
 
 			return new Result(true, "操作成功");
 		} catch (Exception e) {
@@ -132,6 +144,8 @@ public class GoodsController {
 			return new Result(false, "操作失败");
 		}
 	}
+
+
 
 
 }

@@ -75,6 +75,12 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.1.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />
+          <element id="archive" name="shopinggo_search_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_search_interface" />
+          </element>
+          <element id="archive" name="shopinggo_page_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_page_interface" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">

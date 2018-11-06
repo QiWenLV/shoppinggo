@@ -1,12 +1,10 @@
 package com.zqw.search.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.dubbo.container.page.Page;
-import com.sun.org.apache.xerces.internal.xs.LSInputList;
+
 import com.zqw.pojo.TbItem;
 import com.zqw.search.service.ItemSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.solr.core.SolrTemplate;
@@ -53,13 +51,25 @@ public class ItemSearchServiceImpl implements ItemSearchService {
         return map;
     }
 
+    /**
+     * 将更新商品导入索引库
+     * @param list
+     */
     @Override
     public void importList(List list) {
-        solrTemplate.saveBean(list);
-        solrTemplate.commit();
+        System.out.println("后台"+list);
+        if (list != null && list.size() > 0){
+            solrTemplate.saveBeans(list);
+            solrTemplate.commit();
+        }
+
 
     }
 
+    /**
+     * 在索引库中删除商品
+     * @param goodsIds SPU Id
+     */
     @Override
     public void deleteByGoodsIds(List goodsIds) {
 
