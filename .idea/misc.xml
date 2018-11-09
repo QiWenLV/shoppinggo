@@ -9,6 +9,8 @@
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/shopinggo_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/shopinggo_user_web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
