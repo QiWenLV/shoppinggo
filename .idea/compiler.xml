@@ -23,6 +23,9 @@
         <module name="shopinggo_sellergoods_service" />
         <module name="shopinggo_shop_web" />
         <module name="shopinggo_solr_util" />
+        <module name="shopinggo_user_interface" />
+        <module name="shopinggo_user_service" />
+        <module name="shopinggo_user_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -44,6 +47,9 @@
       <module name="shopinggo_sellergoods_service" target="1.8" />
       <module name="shopinggo_shop_web" target="1.8" />
       <module name="shopinggo_solr_util" target="1.8" />
+      <module name="shopinggo_user_interface" target="1.8" />
+      <module name="shopinggo_user_service" target="1.8" />
+      <module name="shopinggo_user_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

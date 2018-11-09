@@ -11,12 +11,7 @@
 
 	<!--<context:property-placeholder location="classpath:properties/page.properties" />-->
 
-    <dubbo:protocol name="dubbo" port="20883"></dubbo:protocol>
-	<!--暴露服务-->
-	<!--<dubbo:provider  timeout="10000" />-->
-	<dubbo:application name="zqw_page_service"/>
-    <dubbo:registry address="zookeeper://192.168.25.222:2181"/>
-    <dubbo:annotation package="com.zqw.page.service.impl" />
+   <context:component-scan base-package="com.zqw.page.service.impl"></context:component-scan>
 
 	<bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
 		<property name="templateLoaderPath" value="/WEB-INF/ftl/" />

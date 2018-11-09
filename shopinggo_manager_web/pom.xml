@@ -89,6 +89,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.13.4</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.zqw.shopinggo</groupId>
             <artifactId>shopinggo_sellergoods_interface</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -103,16 +109,7 @@
             <artifactId>shopinggo_common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>com.zqw.shopinggo</groupId>
-            <artifactId>shopinggo_search_interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zqw.shopinggo</groupId>
-            <artifactId>shopinggo_page_interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
 
     </dependencies>
 
