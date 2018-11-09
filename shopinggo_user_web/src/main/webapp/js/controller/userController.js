@@ -10,12 +10,31 @@ app.controller('userController' ,function($scope,$controller ,userService){
             return;
         }
         
-        userService.add($scope.entity).success(
-            function () {
-                
+        userService.add($scope.entity, $scope.smscode).success(
+            function (response) {
+                if(!response.success){
+                    $scope.smscode = "";
+                }
+                alert(response.message);
             }
         );
         
+    }
+
+
+    //发送验证码
+    $scope.sendCode = function () {
+
+        if($scope.entity.phone == null || $scope.entity.phone==""){
+            alert("请填写手机号")
+            return;
+        }
+
+        userService.sendCode($scope.entity.phone).success(
+            function (response) {
+                alert(response.message)
+            }
+        )
     }
 
 

@@ -1,5 +1,7 @@
 package com.zqw.user.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.zqw.mapper.TbUserMapper;
@@ -9,10 +11,19 @@ import com.zqw.user.service.UserService;
 import entity.PageResult;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.jms.core.JmsTemplate;
 
+import javax.jms.Destination;
+import javax.jms.MapMessage;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+
+@Service
 public class UserServiceImpl implements UserService {
     @Autowired
     private TbUserMapper userMapper;
@@ -134,14 +145,69 @@ public class UserServiceImpl implements UserService {
         return new PageResult(page.getTotal(), page.getResult());
     }
 
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Autowired
+    private Destination smsDestination;
+
+    @Value("${template_code}")
+    private String template_code;
+
+    @Value("${sign_name}")
+    private String sign_name;
+
+    /**
+     * 发送验证码
+     * @param phone
+     */
     @Override
     public void createSmsCode(String phone) {
+        //生存一个6位随机数
+        String smscode = (long)(Math.random() * 1000000) + "";
 
+        //存入redis
+        redisTemplate.boundHashOps("smscode").put(phone, smscode);
+//        redisTemplate.expire(phone, 30, TimeUnit.SECONDS);
+//
+//        Long expire = redisTemplate.getExpire(phone);
+        //向activeMQ发送消息
+        jmsTemplate.send(smsDestination, (session)->{
+            System.out.println("消息进入");
+            MapMessage mapMessage = session.createMapMessage();
+            mapMessage.setString("mobile", phone);  //手机号
+            mapMessage.setString("template_code", template_code); //模板
+            mapMessage.setString("sign_name", sign_name);   //签名
+            Map map = new HashMap<>();
+            map.put("code", smscode);
+            mapMessage.setString("param", JSON.toJSONString(map));  //参数
+            System.out.println("消息发出");
+            return mapMessage;
+        });
     }
 
+    /**
+     * 校验验证码
+     * @param phone
+     * @param code
+     * @return
+     */
     @Override
     public boolean checkSmsCode(String phone, String code) {
-        return false;
+
+        //从redis中提取密码
+        String systemCode = (String)redisTemplate.boundHashOps("smscode").get(phone);
+
+        if(systemCode == null ){
+            return false;
+        }
+        if(!systemCode.equals(code)){
+            return false;
+        }
+
+        return true;
     }
 
 }
