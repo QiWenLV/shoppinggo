@@ -1,1 +1,3 @@
 com\zqw\user\controller\UserController.class
+com\zqw\user\controller\LoginController.class
+com\zqw\user\service\UserDetailServiceImpl.class
