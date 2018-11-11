@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shopinggo_cart_interface" />
+        <module name="shopinggo_cart_service" />
+        <module name="shopinggo_cart_web" />
         <module name="shopinggo_common" />
         <module name="shopinggo_content_interface" />
         <module name="shopinggo_content_service" />
@@ -29,6 +32,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="shopinggo_cart_interface" target="1.8" />
+      <module name="shopinggo_cart_service" target="1.8" />
+      <module name="shopinggo_cart_web" target="1.8" />
       <module name="shopinggo_common" target="1.8" />
       <module name="shopinggo_content_interface" target="1.8" />
       <module name="shopinggo_content_service" target="1.8" />

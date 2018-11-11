@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_cart_interface/shopinggo_cart_interface.iml" filepath="$PROJECT_DIR$/shopinggo_cart_interface/shopinggo_cart_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_cart_service/shopinggo_cart_service.iml" filepath="$PROJECT_DIR$/shopinggo_cart_service/shopinggo_cart_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_cart_web/shopinggo_cart_web.iml" filepath="$PROJECT_DIR$/shopinggo_cart_web/shopinggo_cart_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" filepath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_content_interface/shopinggo_content_interface.iml" filepath="$PROJECT_DIR$/shopinggo_content_interface/shopinggo_content_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_content_service/shopinggo_content_service.iml" filepath="$PROJECT_DIR$/shopinggo_content_service/shopinggo_content_service.iml" />

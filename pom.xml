@@ -29,6 +29,9 @@
         <module>shopinggo_user_interface</module>
         <module>shopinggo_user_service</module>
         <module>shopinggo_user_web</module>
+        <module>shopinggo_cart_interface</module>
+        <module>shopinggo_cart_service</module>
+        <module>shopinggo_cart_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->
