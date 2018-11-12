@@ -83,6 +83,9 @@
           <element id="archive" name="shopinggo_user_interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shopinggo_user_interface" />
           </element>
+          <element id="archive" name="shopinggo_order_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_order_interface" />
+          </element>
           <element id="archive" name="shopinggo_common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shopinggo_common" />
           </element>

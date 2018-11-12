@@ -120,7 +120,7 @@ public class AddressController {
 		String username = SecurityContextHolder.getContext().getAuthentication().getName();
 
 
-		return null;
+		return addressService.findListByUserId(username);
 	}
 	
 }

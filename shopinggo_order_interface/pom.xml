@@ -12,4 +12,12 @@
     <artifactId>shopinggo_order_interface</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zqw.shopinggo</groupId>
+            <artifactId>shopinggo_pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>

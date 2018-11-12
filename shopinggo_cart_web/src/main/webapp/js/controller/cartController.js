@@ -56,9 +56,14 @@ app.controller('cartController',function($scope,cartService){
 		)
     }
 
-    //选择地址
+    //查询地址
 	$scope.addressList=function (address) {
 		$scope.address = address;
+    }
+
+    //选择地址
+    $scope.selectAddress=function(address){
+        $scope.address=address;
     }
     //当前地址是否选中
     $scope.isSelectedAddress=function (address) {
@@ -76,5 +81,27 @@ app.controller('cartController',function($scope,cartService){
         $scope.order.paymentType=type;
     }
 
+    //提交订单
+	$scope.submitOrder=function () {
+
+        $scope.order.receiverAreaName=$scope.address.address;//地址
+        $scope.order.receiverMobile=$scope.address.mobile;//手机
+        $scope.order.receiver=$scope.address.contact;//联系人
+
+		cartService.submitOrder($scope.order).success(
+			function (response) {
+				if(response.success){
+					//页面跳转
+					if($scope.order.paymentType == '1'){	//如果是微信支付
+						location.href="pay.html";
+					}else {	//货到付款
+                        location.href="paysuccess.html";
+					}
+				}else {
+                    alert(response.message);
+				}
+            }
+		)
+    }
 
 });

@@ -155,6 +155,7 @@ public class CartServiceImpl implements CartService {
         TbOrderItem orderItem = new TbOrderItem();
         orderItem.setGoodsId(item.getGoodsId());    //SPU
         orderItem.setItemId(item.getId());       //SKU
+        orderItem.setTitle(item.getTitle());    //商品标题
         orderItem.setNum(num);      //数量
         orderItem.setPicPath(item.getImage());  //图片地址
         orderItem.setPrice(item.getPrice());    //价格
