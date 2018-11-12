@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/shopinggo_content_service/shopinggo_content_service.iml" filepath="$PROJECT_DIR$/shopinggo_content_service/shopinggo_content_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" filepath="$PROJECT_DIR$/shopinggo_dao/shopinggo_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" filepath="$PROJECT_DIR$/shopinggo_manager_web/shopinggo_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_order_interface/shopinggo_order_interface.iml" filepath="$PROJECT_DIR$/shopinggo_order_interface/shopinggo_order_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_order_service/shopinggo_order_service.iml" filepath="$PROJECT_DIR$/shopinggo_order_service/shopinggo_order_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_page_interface/shopinggo_page_interface.iml" filepath="$PROJECT_DIR$/shopinggo_page_interface/shopinggo_page_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_page_service/shopinggo_page_service.iml" filepath="$PROJECT_DIR$/shopinggo_page_service/shopinggo_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" filepath="$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" />

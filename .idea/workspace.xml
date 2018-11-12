@@ -7,365 +7,363 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69f26a23-7652-4427-b26e-518edaa2e55b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_interface/shopinggo_cart_interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_interface/src/main/java/com/zqw/cart/service/CartService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/shopinggo_cart_service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/src/main/java/com/zqw/cart/service/impl/CartServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/src/main/resources/spring/applicationContext-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/src/main/resources/spring/applicationContext-tx.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_service/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/shopinggo_cart_web.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/service/UserDetailServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/config/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/spring-security.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/cart.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-JD-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-addressList.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-cart.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-cooperation.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-getOrderInfo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-home.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-item.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-list.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-login-manage.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-myOrder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-pay.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-payfail.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-paysuccess.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-sampling.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-seckill-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-seckill-item.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-seckillOrder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-shop.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-shoplogin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-success-cart.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-weixinpay.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/pages-zoom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/webbase.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/widget-cartPanelView.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/widget-jquery.autocomplete.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/Logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/banner.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/car.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/code.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/cooperation_banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/down-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/empty_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/erweima.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/gotop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/list.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/login-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/manage-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/photo_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/sampling_head.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/seckillbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/shi_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/shop-intro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/shop-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/shop-part.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/title_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/_/y24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/account.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/ad.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/ad1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/ali.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/pay/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/phone/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/assets/img/zoom/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/banner1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/banner4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/barrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/brand_21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/cartPanelViewIcons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/choosed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/delete.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/duihuan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/erweima.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-b01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-b02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/floor-1-b03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/goods.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/interest06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/like_06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/linker.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/lock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/loginbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/mod-list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/qq.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/quan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/sina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/today01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/today02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/today03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/today04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/weixin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/wx_cz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/img/zoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/base_paginaton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/czFunction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/model/cartModel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/addressList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/getOrderInfo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/jquery.slideunlock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/login-manage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/person-collect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/person-footmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/seckill-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/shop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/shoplogin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/pages/sm-city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/birthday/birthday.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/citypicker/distpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/sui/sui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/plugins/upload/uploadPreview.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/widget/cartPanelView.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/widget/jquery.autocomplete.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/widget/nav-portal-top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/widget/nav.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/angularjs/angular-animate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/angularjs/angular-route.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/angularjs/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/angularjs/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/angularjs/pagination.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/cssgrids/cssgrids-min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/jquery.jqzoom/zoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/normalize/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/sui/sui-append.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/sui/sui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/plugins/sui/sui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_common/src/main/java/utils/CookieUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/Cart.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_page_web_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_page_web_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/AddressController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/getOrderInfo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_order_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_order_interface/shopinggo_order_interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_order_service/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_order_service/shopinggo_order_service.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/149187842867968.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/149187842867969.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-JD-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-addressList.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-cart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-cooperation.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-getOrderInfo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-home.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-login-manage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-myOrder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-pay.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-payfail.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-paysuccess.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-register.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-sampling.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-seckill-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-seckill-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-seckillOrder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-shop.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-shoplogin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-success-cart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-weixinpay.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/pages-zoom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/webbase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/widget-cartPanelView.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/css/widget-jquery.autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/Logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/car.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/cooperation_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/down-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/empty_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/erweima.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/gotop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/list.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/login-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/manage-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/photo_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/sampling_head.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/seckillbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/shi_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/shop-intro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/shop-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/shop-part.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/title_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/_/y24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/account.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/ad.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/ad1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/ali.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/pay/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/phone/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/assets/img/zoom/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/banner1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/banner4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/barrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/brand_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/cartPanelViewIcons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/choosed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/duihuan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/erweima.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-b01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-b02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/floor-1-b03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/goods.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/interest06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/like_06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/linker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/loginbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/mod-list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/qq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/quan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/sina.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/today01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/today02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/today03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/today04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/weixin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/wx_cz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/img/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/base.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/controller/itemController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/czFunction.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/model/cartModel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/addressList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/getOrderInfo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/home.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/jquery.slideunlock.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/login-manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/login.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/person-collect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/person-footmark.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/register.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/seckill-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/shop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/shoplogin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/pages/sm-city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/birthday/birthday.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/citypicker/distpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/sui/sui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/plugins/upload/uploadPreview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/widget/cartPanelView.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/widget/jquery.autocomplete.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/widget/nav-portal-top.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/widget/nav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/angularjs/angular-animate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/angularjs/angular-route.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/angularjs/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/angularjs/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/angularjs/pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/cssgrids/cssgrids-min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/jquery.jqzoom/zoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/normalize/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/sui/sui-append.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/sui/sui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/plugins/sui/sui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_user_interface/src/main/java/com/zqw/user/service/AddressService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shopinggo_user_service/src/main/java/com/zqw/user/service/impl/AddressServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopinggo_cart_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shopinggo_cart_web_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_common/pom.xml" afterPath="$PROJECT_DIR$/shopinggo_common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" afterPath="$PROJECT_DIR$/shopinggo_common/shopinggo_common.iml" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/shopinggo_common/target/shopinggo_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_common/target/shopinggo_common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/pom.xml" afterPath="$PROJECT_DIR$/shopinggo_cart_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/shopinggo_cart_web.iml" afterPath="$PROJECT_DIR$/shopinggo_cart_web/shopinggo_cart_web.iml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js" afterPath="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/target/classes/com/zqw/cart/controller/CartController.class" afterPath="$PROJECT_DIR$/shopinggo_cart_web/target/classes/com/zqw/cart/controller/CartController.class" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_cart_web/target/tomcat/logs/access_log.2018-11-11" afterPath="$PROJECT_DIR$/shopinggo_cart_web/target/tomcat/logs/access_log.2018-11-11" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_page_web/pom.xml" afterPath="$PROJECT_DIR$/shopinggo_page_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" afterPath="$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_user_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/shopinggo_user_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/shopinggo_user_interface/target/shopinggo_user_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/shopinggo_user_interface/target/shopinggo_user_interface-1.0-SNAPSHOT.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -392,6 +390,8 @@
     <ignored path="$PROJECT_DIR$/shopinggo_cart_interface/target/" />
     <ignored path="$PROJECT_DIR$/shopinggo_cart_web/target/" />
     <ignored path="$PROJECT_DIR$/shopinggo_cart_service/target/" />
+    <ignored path="$PROJECT_DIR$/shopinggo_order_interface/target/" />
+    <ignored path="$PROJECT_DIR$/shopinggo_order_service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -416,34 +416,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/spring-security.xml">
+      <file leaf-file-name="itemController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/controller/itemController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="-48">
+              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/main/java/com/zqw/cart/service/impl/CartServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -451,11 +429,93 @@
       <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="280">
+              <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_user_interface/src/main/java/com/zqw/user/service/AddressService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_user_service/src/main/java/com/zqw/user/service/impl/AddressServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/AddressController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cartController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getOrderInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/getOrderInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="223" column="34" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopinggo_order_interface/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopinggo_order_service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -565,15 +625,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shopinggo_page_service/src/main/java/com/zqw/page/service/impl/PageListener.java" />
-        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/resources/spring/spring-jms.xml" />
-        <option value="$PROJECT_DIR$/shopinggo_manager_web/src/main/java/com/zqw/manager/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/shopinggo_page_service/src/main/resources/spring/applicationContext-jms-consumer.xml" />
-        <option value="$PROJECT_DIR$/shopinggo_page_interface/src/main/java/com/zqw/page/service/ItemPageService.java" />
-        <option value="$PROJECT_DIR$/shopinggo_page_service/src/main/java/com/zqw/page/service/impl/ItemPageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopinggo_page_service/src/main/java/com/zqw/page/service/impl/PageDeleteListener.java" />
-        <option value="$PROJECT_DIR$/shopinggo_user_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/shopinggo_user_service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/shopinggo_portal_web/pom.xml" />
         <option value="$PROJECT_DIR$/shopinggo_user_service/src/main/resources/spring/applicationContext-jms-consumer.xml" />
         <option value="$PROJECT_DIR$/shopinggo_user_interface/src/main/java/com/zqw/user/service/UserService.java" />
@@ -597,7 +648,6 @@
         <option value="$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/home-index.html" />
         <option value="$PROJECT_DIR$/shopinggo_cart_interface/pom.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_service/pom.xml" />
-        <option value="$PROJECT_DIR$/shopinggo_cart_web/pom.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/springmvc.xml" />
@@ -610,12 +660,22 @@
         <option value="$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojogroup/Cart.java" />
         <option value="$PROJECT_DIR$/shopinggo_cart_service/src/test/java/text/Demo1.java" />
         <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/cart.html" />
-        <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js" />
         <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/spring-security.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_interface/src/main/java/com/zqw/cart/service/CartService.java" />
         <option value="$PROJECT_DIR$/shopinggo_cart_service/src/main/java/com/zqw/cart/service/impl/CartServiceImpl.java" />
         <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/shopinggo_page_web/pom.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/base.js" />
+        <option value="$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/controller/itemController.js" />
+        <option value="$PROJECT_DIR$/shopinggo_cart_web/pom.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_user_interface/src/main/java/com/zqw/user/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/shopinggo_user_service/src/main/java/com/zqw/user/service/impl/AddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js" />
+        <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js" />
+        <option value="$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/getOrderInfo.html" />
+        <option value="$PROJECT_DIR$/shopinggo_order_interface/pom.xml" />
       </list>
     </option>
   </component>
@@ -655,12 +715,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shopinggo_cart_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="shopinggo_cart_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shopinggo_cart_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -669,7 +728,16 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shopinggo_cart_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="shopinggo_page_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopinggo_page_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopinggo_page_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
@@ -692,9 +760,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="y" value="-24" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="672" />
+    <option name="y" value="36" />
     <option name="width" value="1571" />
     <option name="height" value="1034" />
   </component>
@@ -716,8 +784,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -725,420 +793,11 @@
               <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_cart_web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-              <item name="pojogroup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopinggo_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopinggo_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shopinggo_user_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -1164,7 +823,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.16666667" />
+    <property name="project.structure.proportion" value="0.1684435" />
     <property name="project.structure.side.proportion" value="0.34479865" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
@@ -1172,13 +831,15 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_search_service\src\main\webapp" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\resources\config" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\admin" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\webapp" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\java\com\zqw\cart\controller" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_user_service\src\main\java\com\zqw\user\service\impl" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_user_interface\src\main\java\com\zqw\user\service" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_page_web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zqw.cart.controller" />
@@ -1187,12 +848,10 @@
       <recent name="com.zqw.search.service.impl" />
       <recent name="com.zqw.manager.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\webapp" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\webapp\js\service" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\webapp\js\controller" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_common\src\main\java\utils" />
-      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_cart_web\src\main\java\com\zqw\cart\controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_search_service\src\main\webapp" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\resources\config" />
+      <recent name="F:\develop\idea_web\shopinggo_parent\shopinggo_manager_web\src\main\webapp\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1700,7 +1359,8 @@
       <workItem from="1541729221345" duration="15466000" />
       <workItem from="1541812563975" duration="64000" />
       <workItem from="1541849062549" duration="9802000" />
-      <workItem from="1541901436806" duration="19002000" />
+      <workItem from="1541901436806" duration="21728000" />
+      <workItem from="1541982468422" duration="10264000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 -使用AngularJS搭建管理员后台的页面。并实现品牌列表的增删改查">
       <created>1540567692846</created>
@@ -1746,40 +1406,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408888000" />
+    <option name="totallyTimeSpent" value="421878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="672" y="36" width="1571" height="1034" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7382075" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247642" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29023606" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40801886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21698113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32678133" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4693396" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7382075" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247642" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28924516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7370283" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46043167" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3642704" sideWeight="0.48584905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33266532" sideWeight="0.48584905" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33744636" sideWeight="0.5141509" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40801886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1722103" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21698113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6762142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1862,101 +1522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/js/service/loginService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/js/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/js/base_paginaton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/js/controller/indexController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/webapp/home-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="163" column="30" lean-forward="false" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_user_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/main/resources/spring/applicationContext-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/css/webbase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_user_web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1976,18 +1541,11 @@
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/service/UserDetailServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/controller/service/UserDetailServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/controller/UserDetailServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/UserDetailServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2001,18 +1559,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/userController.js" />
     <entry file="file://$PROJECT_DIR$/shopinggo_pojo/src/main/java/com/zqw/pojo/TbOrderItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2052,7 +1603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2060,7 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2068,7 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="958" column="0" lean-forward="false" selection-start-line="958" selection-start-column="0" selection-end-line="958" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2076,31 +1624,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="210" column="115" lean-forward="false" selection-start-line="210" selection-start-column="115" selection-end-line="210" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/test/java/text/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/test/java/text/Demo1.java" />
     <entry file="file://$PROJECT_DIR$/shopinggo_manager_web/src/main/webapp/admin/brand.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2108,23 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="187" column="50" lean-forward="true" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2154,14 +1668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="102" column="45" lean-forward="false" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_user_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -2174,7 +1680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2198,7 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2206,7 +1710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2214,7 +1717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2228,37 +1730,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="1920">
+          <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/model/cartModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/149187842867960.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/main/java/com/zqw/cart/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/149187842867969.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="437" column="10" lean-forward="false" selection-start-line="437" selection-start-column="10" selection-end-line="437" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="121" column="48" lean-forward="false" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_user_service/src/main/java/com/zqw/user/service/impl/AddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/java/com/zqw/cart/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopinggo_cart_service/src/main/java/com/zqw/cart/service/impl/CartServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/service/cartService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="477">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_user_interface/src/main/java/com/zqw/user/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_page_web/src/main/webapp/js/controller/itemController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/js/controller/cartController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_cart_web/src/main/webapp/getOrderInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="223" column="34" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_order_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopinggo_order_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2316,7 +1956,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|shopinggo_cart_service</last-edited>
+          <last-edited>Web|shopinggo_page_web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

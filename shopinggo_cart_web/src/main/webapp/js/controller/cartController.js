@@ -40,5 +40,41 @@ app.controller('cartController',function($scope,cartService){
 		}
 	}
 	*/
-	
+
+	//获取当前用户的地址列表信息
+	$scope.findAddressList=function () {
+		cartService.findAddressList().success(
+			function (response) {
+				$scope.addressList=response;
+                for(var i=0;i<$scope.addressList.length;i++){
+                    if($scope.addressList[i].isDefault=='1'){
+                        $scope.address=$scope.addressList[i];
+                        break;
+                    }
+                }
+            }
+		)
+    }
+
+    //选择地址
+	$scope.addressList=function (address) {
+		$scope.address = address;
+    }
+    //当前地址是否选中
+    $scope.isSelectedAddress=function (address) {
+		if(address==$scope.address){
+			return true;
+		}else{
+			return false;
+		}
+    }
+
+    $scope.order={paymentType:'1'};//订单对象
+
+    //选择支付类型
+    $scope.selectPayType=function(type){
+        $scope.order.paymentType=type;
+    }
+
+
 });

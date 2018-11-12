@@ -80,6 +80,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.7" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.7" />
+          <element id="archive" name="shopinggo_user_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shopinggo_user_interface" />
+          </element>
           <element id="archive" name="shopinggo_common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shopinggo_common" />
           </element>

@@ -119,6 +119,11 @@
         </dependency>
         <dependency>
             <groupId>com.zqw.shopinggo</groupId>
+            <artifactId>shopinggo_user_interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zqw.shopinggo</groupId>
             <artifactId>shopinggo_common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

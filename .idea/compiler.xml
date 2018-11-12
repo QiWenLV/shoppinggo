@@ -14,6 +14,8 @@
         <module name="shopinggo_content_service" />
         <module name="shopinggo_dao" />
         <module name="shopinggo_manager_web" />
+        <module name="shopinggo_order_interface" />
+        <module name="shopinggo_order_service" />
         <module name="shopinggo_page_interface" />
         <module name="shopinggo_page_service" />
         <module name="shopinggo_page_web" />
@@ -40,6 +42,8 @@
       <module name="shopinggo_content_service" target="1.8" />
       <module name="shopinggo_dao" target="1.8" />
       <module name="shopinggo_manager_web" target="1.8" />
+      <module name="shopinggo_order_interface" target="1.8" />
+      <module name="shopinggo_order_service" target="1.8" />
       <module name="shopinggo_page_interface" target="1.8" />
       <module name="shopinggo_page_service" target="1.8" />
       <module name="shopinggo_page_web" target="1.8" />
