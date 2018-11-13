@@ -2,6 +2,7 @@ package com.zqw.order.service;
 
 
 import com.zqw.pojo.TbOrder;
+import com.zqw.pojo.TbPayLog;
 import entity.PageResult;
 
 import java.util.List;
@@ -60,5 +61,20 @@ public interface OrderService {
 	 * @return
 	 */
 	public PageResult findPage(TbOrder order, int pageNum, int pageSize);
+
+
+	/**
+	 * 根据用户Id获取支付日志
+	 * @param userId
+	 * @return
+	 */
+	public TbPayLog searchPayLogFromRedis(String userId);
+
+	/**
+	 * 更新订单的支付状态
+	 * @param out_trade_no
+	 * @param transaction_id
+	 */
+	public void updateOrderStatus(String out_trade_no, String transaction_id);
 	
 }

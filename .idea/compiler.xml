@@ -19,6 +19,8 @@
         <module name="shopinggo_page_interface" />
         <module name="shopinggo_page_service" />
         <module name="shopinggo_page_web" />
+        <module name="shopinggo_pay_interface" />
+        <module name="shopinggo_pay_service" />
         <module name="shopinggo_pojo" />
         <module name="shopinggo_portal_web" />
         <module name="shopinggo_search_interface" />
@@ -48,6 +50,8 @@
       <module name="shopinggo_page_service" target="1.8" />
       <module name="shopinggo_page_web" target="1.8" />
       <module name="shopinggo_parent" target="1.8" />
+      <module name="shopinggo_pay_interface" target="1.8" />
+      <module name="shopinggo_pay_service" target="1.8" />
       <module name="shopinggo_pojo" target="1.8" />
       <module name="shopinggo_portal_web" target="1.8" />
       <module name="shopinggo_search_interface" target="1.8" />

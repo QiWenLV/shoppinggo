@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/shopinggo_page_service/shopinggo_page_service.iml" filepath="$PROJECT_DIR$/shopinggo_page_service/shopinggo_page_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" filepath="$PROJECT_DIR$/shopinggo_page_web/shopinggo_page_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_parent.iml" filepath="$PROJECT_DIR$/shopinggo_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_pay_interface/shopinggo_pay_interface.iml" filepath="$PROJECT_DIR$/shopinggo_pay_interface/shopinggo_pay_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopinggo_pay_service/shopinggo_pay_service.iml" filepath="$PROJECT_DIR$/shopinggo_pay_service/shopinggo_pay_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" filepath="$PROJECT_DIR$/shopinggo_pojo/shopinggo_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_portal_web/shopinggo_portal_web.iml" filepath="$PROJECT_DIR$/shopinggo_portal_web/shopinggo_portal_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopinggo_search_interface/shopinggo_search_interface.iml" filepath="$PROJECT_DIR$/shopinggo_search_interface/shopinggo_search_interface.iml" />
