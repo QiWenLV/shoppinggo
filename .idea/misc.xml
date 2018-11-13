@@ -12,6 +12,8 @@
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_portal_web" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/shopinggo_seckill_service" />
+    <file type="web" url="file://$PROJECT_DIR$/shopinggo_seckill_web" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_shop_web" />
     <file type="web" url="file://$PROJECT_DIR$/shopinggo_user_service" />
@@ -21,6 +23,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopinggo_seckill_interface/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

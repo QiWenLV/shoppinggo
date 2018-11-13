@@ -36,6 +36,9 @@
         <module>shopinggo_order_service</module>
         <module>shopinggo_pay_interface</module>
         <module>shopinggo_pay_service</module>
+        <module>shopinggo_seckill_interface</module>
+        <module>shopinggo_seckill_service</module>
+        <module>shopinggo_seckill_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

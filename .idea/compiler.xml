@@ -26,6 +26,9 @@
         <module name="shopinggo_search_interface" />
         <module name="shopinggo_search_service" />
         <module name="shopinggo_search_web" />
+        <module name="shopinggo_seckill_interface" />
+        <module name="shopinggo_seckill_service" />
+        <module name="shopinggo_seckill_web" />
         <module name="shopinggo_sellergoods_interface" />
         <module name="shopinggo_sellergoods_service" />
         <module name="shopinggo_shop_web" />
@@ -57,6 +60,9 @@
       <module name="shopinggo_search_interface" target="1.8" />
       <module name="shopinggo_search_service" target="1.8" />
       <module name="shopinggo_search_web" target="1.8" />
+      <module name="shopinggo_seckill_interface" target="1.8" />
+      <module name="shopinggo_seckill_service" target="1.8" />
+      <module name="shopinggo_seckill_web" target="1.8" />
       <module name="shopinggo_sellergoods_interface" target="1.8" />
       <module name="shopinggo_sellergoods_service" target="1.8" />
       <module name="shopinggo_shop_web" target="1.8" />
