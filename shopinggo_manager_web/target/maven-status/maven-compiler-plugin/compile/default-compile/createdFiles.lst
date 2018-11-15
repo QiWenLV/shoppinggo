@@ -1,0 +1,10 @@
+com\zqw\manager\controller\ContentCategoryController.class
+com\zqw\manager\controller\GoodsController.class
+com\zqw\manager\controller\TypeTemplateController.class
+com\zqw\manager\controller\ItemCatController.class
+com\zqw\manager\controller\LoginController.class
+com\zqw\manager\controller\BrandController.class
+com\zqw\manager\controller\SellerController.class
+com\zqw\manager\controller\ContentController.class
+com\zqw\manager\controller\UploadController.class
+com\zqw\manager\controller\SpecificationController.class

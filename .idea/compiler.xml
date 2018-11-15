@@ -6,24 +6,70 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shopinggo_cart_interface" />
+        <module name="shopinggo_cart_service" />
+        <module name="shopinggo_cart_web" />
         <module name="shopinggo_common" />
+        <module name="shopinggo_content_interface" />
+        <module name="shopinggo_content_service" />
         <module name="shopinggo_dao" />
         <module name="shopinggo_manager_web" />
+        <module name="shopinggo_order_interface" />
+        <module name="shopinggo_order_service" />
+        <module name="shopinggo_page_interface" />
+        <module name="shopinggo_page_service" />
+        <module name="shopinggo_page_web" />
+        <module name="shopinggo_pay_interface" />
+        <module name="shopinggo_pay_service" />
         <module name="shopinggo_pojo" />
+        <module name="shopinggo_portal_web" />
+        <module name="shopinggo_search_interface" />
+        <module name="shopinggo_search_service" />
+        <module name="shopinggo_search_web" />
+        <module name="shopinggo_seckill_interface" />
+        <module name="shopinggo_seckill_service" />
+        <module name="shopinggo_seckill_web" />
         <module name="shopinggo_sellergoods_interface" />
         <module name="shopinggo_sellergoods_service" />
         <module name="shopinggo_shop_web" />
+        <module name="shopinggo_solr_util" />
+        <module name="shopinggo_user_interface" />
+        <module name="shopinggo_user_service" />
+        <module name="shopinggo_user_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="shopinggo_cart_interface" target="1.8" />
+      <module name="shopinggo_cart_service" target="1.8" />
+      <module name="shopinggo_cart_web" target="1.8" />
       <module name="shopinggo_common" target="1.8" />
+      <module name="shopinggo_content_interface" target="1.8" />
+      <module name="shopinggo_content_service" target="1.8" />
       <module name="shopinggo_dao" target="1.8" />
       <module name="shopinggo_manager_web" target="1.8" />
+      <module name="shopinggo_order_interface" target="1.8" />
+      <module name="shopinggo_order_service" target="1.8" />
+      <module name="shopinggo_page_interface" target="1.8" />
+      <module name="shopinggo_page_service" target="1.8" />
+      <module name="shopinggo_page_web" target="1.8" />
       <module name="shopinggo_parent" target="1.8" />
+      <module name="shopinggo_pay_interface" target="1.8" />
+      <module name="shopinggo_pay_service" target="1.8" />
       <module name="shopinggo_pojo" target="1.8" />
+      <module name="shopinggo_portal_web" target="1.8" />
+      <module name="shopinggo_search_interface" target="1.8" />
+      <module name="shopinggo_search_service" target="1.8" />
+      <module name="shopinggo_search_web" target="1.8" />
+      <module name="shopinggo_seckill_interface" target="1.8" />
+      <module name="shopinggo_seckill_service" target="1.8" />
+      <module name="shopinggo_seckill_web" target="1.8" />
       <module name="shopinggo_sellergoods_interface" target="1.8" />
       <module name="shopinggo_sellergoods_service" target="1.8" />
       <module name="shopinggo_shop_web" target="1.8" />
+      <module name="shopinggo_solr_util" target="1.8" />
+      <module name="shopinggo_user_interface" target="1.8" />
+      <module name="shopinggo_user_service" target="1.8" />
+      <module name="shopinggo_user_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

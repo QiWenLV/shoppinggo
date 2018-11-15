@@ -12,6 +12,7 @@ import com.zqw.pojo.TbItemCat;
 
 
 import entity.PageResult;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * 服务实现层
@@ -97,5 +98,32 @@ public class ItemCatServiceImpl implements ItemCatService {
 		Page<TbItemCat> page= (Page<TbItemCat>)itemCatMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Autowired
+	private RedisTemplate redisTemplate;
+
+	/**
+	 * 根据上级ID查询商品分类列表
+	 * @param parentId
+	 * @return
+	 */
+	@Override
+	public List<TbItemCat> findByParentId(Long parentId) {
+		//按parentId字段查询，三级列表共用这个查询方法
+		TbItemCatExample example = new TbItemCatExample();
+		TbItemCatExample.Criteria criteria = example.createCriteria();
+
+		criteria.andParentIdEqualTo(parentId);
+
+		//条件查询
+		//将模板ID放入缓存
+		List<TbItemCat> all = findAll();
+		for (TbItemCat tbItemCat : all) {
+			//分类名称为Key, 模板ID为值
+			redisTemplate.boundHashOps("itemCat").put(tbItemCat.getName(), tbItemCat.getTypeId());
+		}
+
+		return itemCatMapper.selectByExample(example);
+	}
+
 }

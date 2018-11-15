@@ -29,9 +29,9 @@ app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemp
 				$scope.entity= response;		
 				
 				//转换字符串为json对象（集合）
-				$scope.entity.brandIds=  JSON.parse( $scope.entity.brandIds);
-				$scope.entity.specIds= JSON.parse($scope.entity.specIds);
-				$scope.entity.customAttributeItems = JSON.parse($scope.entity.customAttributeItems);
+				$scope.entity.brandIds=  JSON.parse( $scope.entity.brandIds);//转换品牌列表
+				$scope.entity.specIds= JSON.parse($scope.entity.specIds);//转换规格列表
+				$scope.entity.customAttributeItems = JSON.parse($scope.entity.customAttributeItems);//转换扩展属性
 				
 			}
 		);				
@@ -105,7 +105,6 @@ app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemp
 		);		
 	}
 
-    $scope.brandList={data:[{id:1,text:'联想'},{id:2,text:'华为'},{id:3,text:'小米'}]};
 
 	//增加扩展属性行
 	$scope.addTableRow=function(){

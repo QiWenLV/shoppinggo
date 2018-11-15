@@ -12,4 +12,11 @@
     <artifactId>shopinggo_pojo</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-solr</artifactId>
+            <version>1.5.5.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <!-- “≥√Êmeta -->
-    <meta charset="GBK">
+    <!-- È°µÈù¢meta -->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>‘À”™…Ã∫ÛÃ®π‹¿ÌœµÕ≥</title>
+    <title>ËøêËê•ÂïÜÂêéÂè∞ÁÆ°ÁêÜÁ≥ªÁªü</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
   
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/style.css">
     
     <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-    <script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
+    <!--<script src="../plugins/jQueryUI/jquery-ui.min.js"></script>-->
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
   
     <script src="../plugins/adminLTE/js/app.min.js"></script>
@@ -29,22 +29,30 @@
 			  }
 		 }
     
-	</script>    
+	</script>
+
+    <!--AngularJS-->
+    <script type="text/javascript" src="../plugins/angularjs/angular.min.js"></script>
+
+
+    <script type="text/javascript" src="../js/base.js"></script>
+    <script type="text/javascript" src="../js/service/loginService.js"></script>
+    <script type="text/javascript" src="../js/controller/indexController.js"></script>
  
 </head>
 
-<body class="hold-transition skin-green sidebar-mini" >
+<body class="hold-transition skin-green sidebar-mini" ng-app="shopinggo" ng-controller="indexController" ng-init="showLoginName()">
 
     <div class="wrapper">
 
-        <!-- “≥√ÊÕ∑≤ø -->
+        <!-- È°µÈù¢Â§¥ÈÉ® -->
         <header class="main-header">
             <!-- Logo -->
             <a href="index.html" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>∆∑”≈π∫</b></span>
+                <span class="logo-mini"><b>ÂìÅ‰ºòË¥≠</b></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>∆∑”≈π∫-‘À”™…Ã∫ÛÃ®</b></span>
+                <span class="logo-lg"><b>ÂìÅ‰ºòË¥≠-ËøêËê•ÂïÜÂêéÂè∞</b></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -62,7 +70,7 @@
                                 <span class="label label-success">4</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="header">ƒ„”–4∏ˆ” º˛</li>
+                                <li class="header">‰Ω†Êúâ4‰∏™ÈÇÆ‰ª∂</li>
 
                                 <li>
                                     <!-- inner menu: contains the actual data -->
@@ -74,10 +82,10 @@
                                                     <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
                                                 </div>
                                                 <h4>
-                                                    œµÕ≥œ˚œ¢
-                                                    <small><i class="fa fa-clock-o"></i> 5 ∑÷÷”«∞</small>
+                                                    Á≥ªÁªüÊ∂àÊÅØ
+                                                    <small><i class="fa fa-clock-o"></i> 5 ÂàÜÈíüÂâç</small>
                                                 </h4>
-                                                <p>ª∂”≠µ«¬ºœµÕ≥?</p>
+                                                <p>Ê¨¢ËøéÁôªÂΩïÁ≥ªÁªü?</p>
                                             </a>
                                         </li>
                                         <!-- end message -->
@@ -87,10 +95,10 @@
                                                     <img src="../img/user3-128x128.jpg" class="img-circle" alt="User Image">
                                                 </div>
                                                 <h4>
-                                                    Õ≈∂”œ˚œ¢
-                                                    <small><i class="fa fa-clock-o"></i> 2 –° ±«∞</small>
+                                                    Âõ¢ÈòüÊ∂àÊÅØ
+                                                    <small><i class="fa fa-clock-o"></i> 2 Â∞èÊó∂Ââç</small>
                                                 </h4>
-                                                <p>ƒ„”––¬µƒ»ŒŒÒ¡À</p>
+                                                <p>‰Ω†ÊúâÊñ∞ÁöÑ‰ªªÂä°‰∫Ü</p>
                                             </a>
                                         </li>
                                         <li>
@@ -141,7 +149,7 @@
                                 <span class="label label-warning">10</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="header">ƒ„”–10∏ˆ–¬œ˚œ¢</li>
+                                <li class="header">‰Ω†Êúâ10‰∏™Êñ∞Ê∂àÊÅØ</li>
                                 <li>
                                     <!-- inner menu: contains the actual data -->
                                     <ul class="menu">
@@ -182,7 +190,7 @@
                                 <span class="label label-danger">9</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="header">ƒ„”–9∏ˆ–¬»ŒŒÒ</li>
+                                <li class="header">‰Ω†Êúâ9‰∏™Êñ∞‰ªªÂä°</li>
                                 <li>
                                     <!-- inner menu: contains the actual data -->
                                     <ul class="menu">
@@ -258,7 +266,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="../img/user2-160x160.jpg" class="user-image" alt="User Image">
 
-                                <span class="hidden-xs">≤‚ ‘”√ªß</span>
+                                <span class="hidden-xs">{{loginName}}</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
@@ -266,18 +274,18 @@
                                     <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                                     <p>
-                                       ≤‚ ‘”√ªß - ¬Ì–°∞◊
-                                        <small>◊Ó∫Ûµ«¬º 11:20AM</small>
+                                        {{loginName}}
+                                        <small>ÊúÄÂêéÁôªÂΩï 11:20AM</small>
                                     </p>
                                 </li>
                                 
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
                                     <div class="pull-left">
-                                        <a href="#" class="btn btn-default btn-flat">–ﬁ∏ƒ√‹¬Î</a>
+                                        <a href="#" class="btn btn-default btn-flat">‰øÆÊîπÂØÜÁ†Å</a>
                                     </div>
                                     <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">◊¢œ˙</a>
+                                        <a href="../logout" class="btn btn-default btn-flat">Ê≥®ÈîÄ</a>
                                     </div>
                                 </li>
                             </ul>
@@ -287,9 +295,9 @@
                 </div>
             </nav>
         </header>
-        <!-- “≥√ÊÕ∑≤ø /-->
+        <!-- È°µÈù¢Â§¥ÈÉ® /-->
 
-        <!-- µº∫Ω≤‡¿∏ -->
+        <!-- ÂØºËà™‰æßÊ†è -->
         <aside class="main-sidebar">
             <!-- sidebar: style can be found in sidebar.less -->
             <section class="sidebar">
@@ -299,8 +307,8 @@
                         <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p> ≤‚ ‘”√ªß</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> ‘⁄œﬂ</a>
+                        <p> {{loginName}}</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> Âú®Á∫ø</a>
                     </div>
                 </div>
               
@@ -309,14 +317,14 @@
 
                 <!-- sidebar menu: : style can be found in sidebar.less -->
                 <ul class="sidebar-menu"  >
-                    <li class="header">≤Àµ•</li>
-                    <li id="admin-index"><a href="index.html"><i class="fa fa-dashboard"></i> <span> ◊“≥</span></a></li>
+                    <li class="header">ËèúÂçï</li>
+                    <li id="admin-index"><a href="index.html"><i class="fa fa-dashboard"></i> <span>È¶ñÈ°µ</span></a></li>
 
-				    <!-- ≤Àµ• -->
+				    <!-- ËèúÂçï -->
 				    <li class="treeview">
 				        <a href="#">
 				            <i class="fa fa-folder"></i> 
-				            <span>…Ãº“π‹¿Ì</span>
+				            <span>ÂïÜÂÆ∂ÁÆ°ÁêÜ</span>
 				            <span class="pull-right-container">
 				       			<i class="fa fa-angle-left pull-right"></i>
 				   		 	</span>
@@ -325,12 +333,12 @@
 				
 				            <li id="admin-login">
 				                <a href="seller_1.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>…Ãº“…Û∫À
+				                    <i class="fa fa-circle-o"></i>ÂïÜÂÆ∂ÂÆ°Ê†∏
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="seller.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>…Ãº“π‹¿Ì
+				                    <i class="fa fa-circle-o"></i>ÂïÜÂÆ∂ÁÆ°ÁêÜ
 				                </a>
 				            </li>
 				        </ul>                        
@@ -338,7 +346,7 @@
 					<li class="treeview">
 				        <a href="#">
 				            <i class="fa fa-folder"></i> 
-				            <span>…Ã∆∑π‹¿Ì</span>
+				            <span>ÂïÜÂìÅÁÆ°ÁêÜ</span>
 				            <span class="pull-right-container">
 				       			<i class="fa fa-angle-left pull-right"></i>
 				   		 	</span>
@@ -347,30 +355,30 @@
 				
 				            <li id="admin-login">
 				                <a href="brand.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>∆∑≈∆π‹¿Ì
+				                    <i class="fa fa-circle-o"></i>ÂìÅÁâåÁÆ°ÁêÜ
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="specification.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>πÊ∏Òπ‹¿Ì
+				                    <i class="fa fa-circle-o"></i>ËßÑÊ†ºÁÆ°ÁêÜ
 				                </a>
 				            </li>							
 							<li id="admin-login">
 				                <a href="type_template.html" target="iframe">
 
-				                    <i class="fa fa-circle-o"></i>ƒ£∞Âπ‹¿Ì
+				                    <i class="fa fa-circle-o"></i>Ê®°ÊùøÁÆ°ÁêÜ
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="item_cat.html" target="iframe">
 
-				                    <i class="fa fa-circle-o"></i>∑÷¿‡π‹¿Ì
+				                    <i class="fa fa-circle-o"></i>ÂàÜÁ±ªÁÆ°ÁêÜ
 
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="goods.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>…Ã∆∑…Û∫À
+				                    <i class="fa fa-circle-o"></i>ÂïÜÂìÅÂÆ°Ê†∏
 
 				                </a>
 				            </li>
@@ -380,7 +388,7 @@
 					<li class="treeview">
 				        <a href="#">
 				            <i class="fa fa-folder"></i> 
-				            <span>π„∏Êπ‹¿Ì</span>
+				            <span>ÂπøÂëäÁÆ°ÁêÜ</span>
 				            <span class="pull-right-container">
 				       			<i class="fa fa-angle-left pull-right"></i>
 				   		 	</span>
@@ -388,40 +396,40 @@
 				        <ul class="treeview-menu">
 				
 				            <li id="admin-login">
-				                <a href="content_category.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>π„∏Ê¿‡–Õπ‹¿Ì
+				                <a href="contentCategory.html" target="iframe">
+				                    <i class="fa fa-circle-o"></i>ÂπøÂëäÁ±ªÂûãÁÆ°ÁêÜ
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="content.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>π„∏Êπ‹¿Ì
+				                    <i class="fa fa-circle-o"></i>ÂπøÂëäÁÆ°ÁêÜ
 				                </a>
 				            </li>
 				        </ul>                        
 				    </li>
-				    <!-- ≤Àµ• /-->
+				    <!-- ËèúÂçï /-->
 
                 </ul>
             </section>
             <!-- /.sidebar -->
         </aside>
-        <!-- µº∫Ω≤‡¿∏ /-->
+        <!-- ÂØºËà™‰æßÊ†è /-->
 
-        <!-- ƒ⁄»›«¯”Ú -->
+        <!-- ÂÜÖÂÆπÂå∫Âüü -->
         <div class="content-wrapper">
 			<iframe width="100%" id="iframe" name="iframe"	onload="SetIFrameHeight()" 
 					frameborder="0" src="home.html"></iframe>
  
         </div>
-        <!-- ƒ⁄»›«¯”Ú /-->
+        <!-- ÂÜÖÂÆπÂå∫Âüü /-->
 
         <footer class="main-footer">
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0.8
             </div>
-            <strong>Copyright &copy; 2014-2017 <a href="http://www.itcast.cn">—–æø‘∫—–∑¢≤ø</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2014-2017 <a href="http://www.itcast.cn">Á†îÁ©∂Èô¢Á†îÂèëÈÉ®</a>.</strong> All rights reserved.
         </footer>
-        <!-- µ◊≤øµº∫Ω /-->
+        <!-- Â∫ïÈÉ®ÂØºËà™ /-->
 
     </div>
 

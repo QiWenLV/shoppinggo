@@ -16,6 +16,29 @@
         <module>shopinggo_sellergoods_service</module>
         <module>shopinggo_manager_web</module>
         <module>shopinggo_shop_web</module>
+        <module>shopinggo_content_interface</module>
+        <module>shopinggo_content_service</module>
+        <module>shopinggo_portal_web</module>
+        <module>shopinggo_solr_util</module>
+        <module>shopinggo_search_interface</module>
+        <module>shopinggo_search_service</module>
+        <module>shopinggo_search_web</module>
+        <module>shopinggo_page_interface</module>
+        <module>shopinggo_page_service</module>
+        <module>shopinggo_page_web</module>
+        <module>shopinggo_user_interface</module>
+        <module>shopinggo_user_service</module>
+        <module>shopinggo_user_web</module>
+        <module>shopinggo_cart_interface</module>
+        <module>shopinggo_cart_service</module>
+        <module>shopinggo_cart_web</module>
+        <module>shopinggo_order_interface</module>
+        <module>shopinggo_order_service</module>
+        <module>shopinggo_pay_interface</module>
+        <module>shopinggo_pay_service</module>
+        <module>shopinggo_seckill_interface</module>
+        <module>shopinggo_seckill_service</module>
+        <module>shopinggo_seckill_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->
@@ -87,6 +110,16 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-config</artifactId>
                 <version>${spring.version}</version>
             </dependency>
             <!-- dubbo相关 -->
