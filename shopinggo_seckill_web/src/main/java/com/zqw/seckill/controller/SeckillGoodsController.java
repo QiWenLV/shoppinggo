@@ -1,16 +1,16 @@
-package com.zqw.controller;
-import java.util.List;
+package com.zqw.seckill.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.zqw.pojo.TbSeckillGoods;
 import com.zqw.seckill.service.SeckillGoodsService;
+import entity.PageResult;
+import entity.Result;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.zqw.pojo.TbSeckillGoods;
 
+import java.util.List;
 
-import entity.PageResult;
-import entity.Result;
 /**
  * controller
  * @author Administrator
@@ -111,5 +111,16 @@ public class SeckillGoodsController {
 	public PageResult search(@RequestBody TbSeckillGoods seckillGoods, int page, int rows  ){
 		return seckillGoodsService.findPage(seckillGoods, page, rows);		
 	}
-	
+
+
+	@RequestMapping("/findList")
+	public List<TbSeckillGoods> findList(){
+		return seckillGoodsService.findList();
+	}
+
+	@RequestMapping("/findOneFromRedis")
+	public TbSeckillGoods findOneFromRedis(Long id){
+		return seckillGoodsService.findOneFromRedis(id);
+	}
 }
+

@@ -63,6 +63,6 @@
     </servlet-mapping>
 
     <welcome-file-list>
-        <welcome-file>cart.html</welcome-file>
+        <welcome-file>seckill-index.html</welcome-file>
     </welcome-file-list>
 </web-app>

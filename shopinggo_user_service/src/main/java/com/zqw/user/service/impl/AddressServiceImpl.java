@@ -125,6 +125,11 @@ public class AddressServiceImpl implements AddressService {
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
+	/**
+	 * 获取用户的收货地址
+	 * @param userId
+	 * @return
+	 */
 	@Override
 	public List<TbAddress> findListByUserId(String userId) {
 

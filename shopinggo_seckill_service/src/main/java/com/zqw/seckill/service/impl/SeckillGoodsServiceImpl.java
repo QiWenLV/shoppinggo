@@ -1,4 +1,5 @@
 package com.zqw.seckill.service.impl;
+import java.util.Date;
 import java.util.List;
 
 import com.github.pagehelper.Page;
@@ -11,6 +12,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 
 import com.zqw.pojo.TbSeckillGoods;
 import entity.PageResult;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * 服务实现层
@@ -108,5 +110,41 @@ public class SeckillGoodsServiceImpl implements SeckillGoodsService {
 		Page<TbSeckillGoods> page= (Page<TbSeckillGoods>)seckillGoodsMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Autowired
+	private RedisTemplate redisTemplate;
+
+	@Override
+	public List<TbSeckillGoods> findList() {
+
+        List<TbSeckillGoods> seckillGoodsList = redisTemplate.boundHashOps("seckillGoods").values();
+
+        if(seckillGoodsList == null || seckillGoodsList.size() == 0){
+            TbSeckillGoodsExample example = new TbSeckillGoodsExample();
+            TbSeckillGoodsExample.Criteria criteria = example.createCriteria();
+            criteria.andStatusEqualTo("1"); //筛选审核通过的
+            criteria.andStockCountGreaterThan(0);   //库存数大于0
+            criteria.andStartTimeLessThanOrEqualTo(new Date()); //开始日期小于等于当前日期
+            criteria.andEndTimeGreaterThanOrEqualTo(new Date());   //截至日期大于等于当前日期
+            seckillGoodsList = seckillGoodsMapper.selectByExample(example);
+
+            //存入缓存
+            for (TbSeckillGoods seckillGoods : seckillGoodsList) {
+                redisTemplate.boundHashOps("seckillGoods").put(seckillGoods.getId(), seckillGoods);
+            }
+            System.out.println("从数据库中读取秒杀数据");
+        }else {
+            System.out.println("从缓存中读取秒杀数据");
+        }
+
+        return seckillGoodsList;
+	}
+
+    @Override
+    public TbSeckillGoods findOneFromRedis(Long id) {
+
+        TbSeckillGoods seckillGoods = (TbSeckillGoods)redisTemplate.boundHashOps("seckillGoods").get(id);
+        return seckillGoods;
+    }
+
 }

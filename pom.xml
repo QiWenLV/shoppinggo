@@ -39,6 +39,7 @@
         <module>shopinggo_seckill_interface</module>
         <module>shopinggo_seckill_service</module>
         <module>shopinggo_seckill_web</module>
+        <module>shopinggo_task_service</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

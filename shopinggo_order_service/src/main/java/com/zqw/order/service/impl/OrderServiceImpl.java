@@ -99,7 +99,7 @@ public class OrderServiceImpl implements OrderService {
             tbOrder.setSellerId(cart.getSellerId());   //商家ID
 
             double money=0;     //合计金额
-            //循环购物车每条明细记录
+            //循环购物车每条明细商品记录
             for(TbOrderItem orderItem : cart.getOrderItemList()){
 
                 orderItem.setId(idWorker.nextId()); //主键
@@ -135,7 +135,7 @@ public class OrderServiceImpl implements OrderService {
 
             payLogMapper.insert(payLog);
 
-            //缓存订单日志
+            //缓存支付日志
             redisTemplate.boundHashOps("payLog").put(order.getUserId(), payLog);
 		}
 

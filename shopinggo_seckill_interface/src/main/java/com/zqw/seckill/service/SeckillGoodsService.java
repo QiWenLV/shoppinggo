@@ -59,5 +59,19 @@ public interface SeckillGoodsService {
 	 * @return
 	 */
 	public PageResult findPage(TbSeckillGoods seckillGoods, int pageNum, int pageSize);
-	
+
+	/**
+	 * 获取正在参与秒杀的商品
+	 * @return
+	 */
+	public List<TbSeckillGoods> findList();
+
+
+	/**
+	 * 根据ID获取实体
+	 * @param id
+	 * @return
+	 */
+	public TbSeckillGoods findOneFromRedis(Long id);
+
 }

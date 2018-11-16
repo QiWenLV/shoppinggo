@@ -1,0 +1,4 @@
+com\zqw\seckill\service\UserDetailServiceImpl.class
+com\zqw\seckill\controller\SeckillOrderController.class
+com\zqw\seckill\controller\PayController.class
+com\zqw\seckill\controller\SeckillGoodsController.class
